@@ -7,3 +7,17 @@ logs
 *.lck
 _autosave*
 *.swp
+*.kicad_prl
+*.bak
+*.dsn
+*.ses
+fp-info-cache
+backup/
+!panel_rp2354_20x20_v0p1/manual_route/**
+.guix/home/
+.guix/.config/kicad/**
+!.guix/.config/kicad/
+!.guix/.config/kicad/9.0/
+!.guix/.config/kicad/9.0/fp-lib-table
+!.guix/.config/kicad/9.0/sym-lib-table
+!.guix/.config/kicad/9.0/design-block-lib-table
