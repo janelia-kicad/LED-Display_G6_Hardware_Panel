@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "961f40bf-d163-43f4-84c5-7fb01f710891")
 	(paper "User" 431.8 304.8)
+	(title_block
+		(title "G6 Panel")
+		(date "2026-04-01")
+		(rev "0.1.3")
+		(company "Janelia Research Campus")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers
@@ -26130,7 +26136,7 @@
 			(uuid "f9f2be78-7b03-418d-be21-f2cd77d4f383")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D172")
 					(unit 1)
@@ -26206,7 +26212,7 @@
 			(uuid "843a52d4-8bae-4e8c-878a-df0c57f5e551")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D4")
 					(unit 1)
@@ -26282,7 +26288,7 @@
 			(uuid "d6da3a25-5876-43a1-a786-cde1e61ba1c3")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D140")
 					(unit 1)
@@ -26358,7 +26364,7 @@
 			(uuid "a4d80731-5d32-4331-b7b4-3b748bc8ac9f")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D219")
 					(unit 1)
@@ -26434,7 +26440,7 @@
 			(uuid "26648c11-87a0-4e71-aebf-9d0910cf89c4")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D161")
 					(unit 1)
@@ -26510,7 +26516,7 @@
 			(uuid "174e8075-fc6f-423a-bdef-f62a22f7dd82")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D12")
 					(unit 1)
@@ -26546,7 +26552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 82.042 53.34 90)
 			(effects
 				(font
@@ -26589,7 +26595,7 @@
 			(uuid "1b35e847-c04a-45fc-bf2b-34361dbfb838")
 		)
 		(instances
-			(project "panel"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R12")
 					(unit 1)
@@ -26665,7 +26671,7 @@
 			(uuid "2e177a8e-e0cb-428a-8e58-5cd84e553bc8")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D372")
 					(unit 1)
@@ -26741,7 +26747,7 @@
 			(uuid "9b122f67-8d8c-470b-aebb-9c890edab2be")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D303")
 					(unit 1)
@@ -26817,7 +26823,7 @@
 			(uuid "514ba838-02b3-4125-aebd-5aca9afcba39")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D383")
 					(unit 1)
@@ -26893,7 +26899,7 @@
 			(uuid "70b0c628-ff55-49d8-8d7d-6bbe33b2a31f")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D331")
 					(unit 1)
@@ -26969,7 +26975,7 @@
 			(uuid "64d5bf46-eada-4299-a927-fea2743b2dcb")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D365")
 					(unit 1)
@@ -27045,7 +27051,7 @@
 			(uuid "1b1e3525-fba0-4a34-b925-05cd2fd1922c")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D220")
 					(unit 1)
@@ -27121,7 +27127,7 @@
 			(uuid "fefbfa5f-3341-4f93-bdee-7cbf29788e73")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D176")
 					(unit 1)
@@ -27197,7 +27203,7 @@
 			(uuid "532f7c36-f70d-4889-95ed-341b08e1654b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D248")
 					(unit 1)
@@ -27273,7 +27279,7 @@
 			(uuid "717f64c0-0c0a-4fc7-8820-014a73d0b106")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D247")
 					(unit 1)
@@ -27349,7 +27355,7 @@
 			(uuid "bf607433-70d9-4a7d-9c55-7ad05e663c4c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D86")
 					(unit 1)
@@ -27425,7 +27431,7 @@
 			(uuid "144475d3-e41b-4ea4-81ed-0757e70dbd61")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D72")
 					(unit 1)
@@ -27501,7 +27507,7 @@
 			(uuid "77f6608c-b1c6-4d32-a4d1-165a416e8929")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D232")
 					(unit 1)
@@ -27577,7 +27583,7 @@
 			(uuid "46db259f-5cc2-4056-af50-d183fe1c08da")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D352")
 					(unit 1)
@@ -27653,7 +27659,7 @@
 			(uuid "a4fcfc0b-333b-47d5-b01a-b8fae3b07ae5")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D119")
 					(unit 1)
@@ -27729,7 +27735,7 @@
 			(uuid "69025378-c663-43cd-b800-d71d15106cbb")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D25")
 					(unit 1)
@@ -27805,7 +27811,7 @@
 			(uuid "82155686-b6d0-4cab-918c-4b77aa6a0592")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D8")
 					(unit 1)
@@ -27881,7 +27887,7 @@
 			(uuid "08dc88f0-ed19-423b-8005-c438b7d6e67d")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D293")
 					(unit 1)
@@ -27957,7 +27963,7 @@
 			(uuid "0a8921ee-ec32-4532-9bba-27be57514809")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D71")
 					(unit 1)
@@ -28033,7 +28039,7 @@
 			(uuid "d078b961-109f-497a-b10c-eec0ec4d3f87")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D259")
 					(unit 1)
@@ -28069,7 +28075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 64.262 53.34 90)
 			(effects
 				(font
@@ -28112,7 +28118,7 @@
 			(uuid "489892eb-6d85-4e0f-8d48-5ce45605f426")
 		)
 		(instances
-			(project "panel"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R11")
 					(unit 1)
@@ -28188,7 +28194,7 @@
 			(uuid "543eef37-5287-4aba-b455-5b08691e8bd6")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D21")
 					(unit 1)
@@ -28264,7 +28270,7 @@
 			(uuid "b2026561-7de4-4ecd-a84e-ce21d2ec3fd7")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D169")
 					(unit 1)
@@ -28340,7 +28346,7 @@
 			(uuid "4850b782-255e-4332-9a52-cc25cf8ea0e3")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D49")
 					(unit 1)
@@ -28416,7 +28422,7 @@
 			(uuid "7f81893e-afa3-4849-aa25-be53fafdc5ec")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D80")
 					(unit 1)
@@ -28492,7 +28498,7 @@
 			(uuid "e0d885c0-ac2a-4fd8-a639-25f4fdefe220")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D106")
 					(unit 1)
@@ -28568,7 +28574,7 @@
 			(uuid "af7a7df2-9251-496f-ae7d-93f501c80eb8")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D53")
 					(unit 1)
@@ -28644,7 +28650,7 @@
 			(uuid "957761db-d9b0-436f-8beb-568a0872c33a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D168")
 					(unit 1)
@@ -28720,7 +28726,7 @@
 			(uuid "e2e41cfe-2e43-4fe8-924c-0053e6d84861")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D289")
 					(unit 1)
@@ -28796,7 +28802,7 @@
 			(uuid "320836fb-ddf1-4037-835e-61a063b02728")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D91")
 					(unit 1)
@@ -28872,7 +28878,7 @@
 			(uuid "d1c37340-2ed5-4d1c-8071-2d59c22e4e1a")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D359")
 					(unit 1)
@@ -28948,7 +28954,7 @@
 			(uuid "d412228c-3629-4852-a212-c07796bcae69")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D29")
 					(unit 1)
@@ -29024,7 +29030,7 @@
 			(uuid "d6f5b2e8-c292-449a-a09c-141072b549f2")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D38")
 					(unit 1)
@@ -29100,7 +29106,7 @@
 			(uuid "4757c306-314b-4421-a5c6-42ffe3a80871")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D160")
 					(unit 1)
@@ -29176,7 +29182,7 @@
 			(uuid "f8f86771-72fa-4b94-b016-5d1662247a5c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D81")
 					(unit 1)
@@ -29252,7 +29258,7 @@
 			(uuid "c6a4c65b-02b3-4d04-bbdf-23741603066b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D105")
 					(unit 1)
@@ -29328,7 +29334,7 @@
 			(uuid "69b738f9-2913-44b8-9b8f-ef36d5635a28")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D146")
 					(unit 1)
@@ -29404,7 +29410,7 @@
 			(uuid "7de68447-5c24-44d1-9293-b150b04654fd")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D108")
 					(unit 1)
@@ -29440,7 +29446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 153.162 53.34 90)
 			(effects
 				(font
@@ -29483,7 +29489,7 @@
 			(uuid "f5cf85a2-e140-4340-b1bb-d6cb4c5d2fc6")
 		)
 		(instances
-			(project "panel"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R16")
 					(unit 1)
@@ -29559,7 +29565,7 @@
 			(uuid "81047092-2c21-46b6-9612-85142bff529b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D214")
 					(unit 1)
@@ -29635,7 +29641,7 @@
 			(uuid "b537985f-9c42-4995-8e33-475a8237a20e")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D315")
 					(unit 1)
@@ -29711,7 +29717,7 @@
 			(uuid "986043c9-43e1-411e-950d-18bf2d7b904f")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D322")
 					(unit 1)
@@ -29787,7 +29793,7 @@
 			(uuid "db29a414-9c9d-42a7-8152-a3454f65c339")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D48")
 					(unit 1)
@@ -29863,7 +29869,7 @@
 			(uuid "28a510cc-e935-46fd-9770-b2d5fcb5b133")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D123")
 					(unit 1)
@@ -29939,7 +29945,7 @@
 			(uuid "e9db0283-a675-4931-b123-67e81d064ca0")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D223")
 					(unit 1)
@@ -30015,7 +30021,7 @@
 			(uuid "8f0ff194-b5b8-4e6b-8cba-dd3b2bb99cd1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D323")
 					(unit 1)
@@ -30091,7 +30097,7 @@
 			(uuid "ec225bc5-e374-41af-9faf-a25d19c9b6ad")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D194")
 					(unit 1)
@@ -30167,7 +30173,7 @@
 			(uuid "d57a4612-6739-4d86-a9ab-42afe67aa803")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D58")
 					(unit 1)
@@ -30243,7 +30249,7 @@
 			(uuid "cae3d664-343b-4d49-bf17-bcb6506432f7")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D204")
 					(unit 1)
@@ -30319,7 +30325,7 @@
 			(uuid "78f2ab44-b8a5-47b4-876a-091e1cd720ac")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D326")
 					(unit 1)
@@ -30395,7 +30401,7 @@
 			(uuid "baa69f94-fac1-4b4a-b159-da78cff87ab0")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D182")
 					(unit 1)
@@ -30471,7 +30477,7 @@
 			(uuid "6f489650-3530-44f1-963a-19ad9d699292")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D2")
 					(unit 1)
@@ -30547,7 +30553,7 @@
 			(uuid "b80f92d5-c4bc-4a1d-85b8-93cf633a82a4")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D24")
 					(unit 1)
@@ -30623,7 +30629,7 @@
 			(uuid "0f9ebf5b-0482-4420-bd9e-1bca53bf5224")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D362")
 					(unit 1)
@@ -30699,7 +30705,7 @@
 			(uuid "f204245a-e940-4897-95d0-923a090578f4")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D263")
 					(unit 1)
@@ -30735,7 +30741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 367.792 53.34 90)
 			(effects
 				(font
@@ -30778,7 +30784,7 @@
 			(uuid "575a3d3c-9ff1-4ce6-bf14-8d78066a4c09")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R28")
 					(unit 1)
@@ -30854,7 +30860,7 @@
 			(uuid "6ce0b066-b5ef-4d3b-8bb6-d94213093ef6")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D85")
 					(unit 1)
@@ -30930,7 +30936,7 @@
 			(uuid "650719a7-821f-4280-a1f0-183eb0f67111")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D109")
 					(unit 1)
@@ -30966,7 +30972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 277.622 53.34 90)
 			(effects
 				(font
@@ -31009,7 +31015,7 @@
 			(uuid "016c5016-b149-420c-b1dd-21b096f70d5c")
 		)
 		(instances
-			(project "panel"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R23")
 					(unit 1)
@@ -31045,7 +31051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 259.842 53.34 90)
 			(effects
 				(font
@@ -31088,7 +31094,7 @@
 			(uuid "15f7defa-d27f-4935-9955-6630e9449307")
 		)
 		(instances
-			(project "panel"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R22")
 					(unit 1)
@@ -31164,7 +31170,7 @@
 			(uuid "a571eb17-7a4e-4698-a92a-fb1f4390bb85")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D77")
 					(unit 1)
@@ -31240,7 +31246,7 @@
 			(uuid "77493e5c-b7cd-4508-a826-67f3fd17c23c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D110")
 					(unit 1)
@@ -31316,7 +31322,7 @@
 			(uuid "4a69d077-194a-418f-b3cd-c96e39b6eff1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D321")
 					(unit 1)
@@ -31392,7 +31398,7 @@
 			(uuid "2cf72476-aaa8-4947-ba87-dc0d443f0da1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D282")
 					(unit 1)
@@ -31468,7 +31474,7 @@
 			(uuid "0add91cb-2dac-49d2-96c3-8c5cef4dc57a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D94")
 					(unit 1)
@@ -31544,7 +31550,7 @@
 			(uuid "8a564bbc-f6f9-490d-8508-6c45cebd69df")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D153")
 					(unit 1)
@@ -31620,7 +31626,7 @@
 			(uuid "f56c0efc-d2a0-47f5-9015-60d87fce1492")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D78")
 					(unit 1)
@@ -31696,7 +31702,7 @@
 			(uuid "9e259e4e-d885-4159-91dc-86311a8ab57c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D213")
 					(unit 1)
@@ -31772,7 +31778,7 @@
 			(uuid "3c7cf61a-0965-44b2-87fb-7a7c94a725df")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D30")
 					(unit 1)
@@ -31848,7 +31854,7 @@
 			(uuid "3e199000-92d7-4913-9f8b-0ab1c2d6b6af")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D387")
 					(unit 1)
@@ -31924,7 +31930,7 @@
 			(uuid "4f6f1728-17e7-46c0-89ca-5950c0567549")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D358")
 					(unit 1)
@@ -32000,7 +32006,7 @@
 			(uuid "edf3435c-ab3d-437a-9aee-5b9a891656c3")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D221")
 					(unit 1)
@@ -32076,7 +32082,7 @@
 			(uuid "995b6dc9-ff27-462e-96ba-1b500b976fda")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D54")
 					(unit 1)
@@ -32152,7 +32158,7 @@
 			(uuid "9c962b96-2a17-45b5-87a0-a3de6a3fccf1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D353")
 					(unit 1)
@@ -32228,7 +32234,7 @@
 			(uuid "4d574227-f208-4159-97f8-c27fcc225160")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D390")
 					(unit 1)
@@ -32304,7 +32310,7 @@
 			(uuid "2e243c51-ba6d-41c0-b916-59f2d14ddc4e")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D134")
 					(unit 1)
@@ -32380,7 +32386,7 @@
 			(uuid "7615b472-3e3c-46e5-adc1-1693f7ced381")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D355")
 					(unit 1)
@@ -32456,7 +32462,7 @@
 			(uuid "0edb1145-360e-41e7-abd5-6fe2763a339c")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D376")
 					(unit 1)
@@ -32532,7 +32538,7 @@
 			(uuid "5453207f-92c6-4f0d-a0be-17c602502ec8")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D74")
 					(unit 1)
@@ -32608,7 +32614,7 @@
 			(uuid "5bfcc07a-cfc0-47bd-aa0a-c70dc3a27f33")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D174")
 					(unit 1)
@@ -32684,7 +32690,7 @@
 			(uuid "ec0def2b-0427-46f4-b4c8-1530830d7933")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D339")
 					(unit 1)
@@ -32760,7 +32766,7 @@
 			(uuid "6ad67210-68e2-4c74-a35b-7bb5be92d402")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D97")
 					(unit 1)
@@ -32836,7 +32842,7 @@
 			(uuid "7387e2bd-fd4f-451a-8b9d-7d873c1f9d74")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D329")
 					(unit 1)
@@ -32912,7 +32918,7 @@
 			(uuid "273c1e2a-38d1-4c4d-b342-84fcfa61c084")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D228")
 					(unit 1)
@@ -32988,7 +32994,7 @@
 			(uuid "eacce9bb-6b61-45a2-a5c6-0ab69bcc23a5")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D222")
 					(unit 1)
@@ -33064,7 +33070,7 @@
 			(uuid "dbd1c20f-7106-4c29-aac1-17f68d9fce98")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D69")
 					(unit 1)
@@ -33140,7 +33146,7 @@
 			(uuid "a0a60d95-46d2-4535-abff-5a2af1447bab")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D296")
 					(unit 1)
@@ -33216,7 +33222,7 @@
 			(uuid "8ca23315-1c29-4e53-b9d0-d26b1ea80e16")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D112")
 					(unit 1)
@@ -33292,7 +33298,7 @@
 			(uuid "ad933100-8024-4d71-96ae-1bc9eedf3615")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D291")
 					(unit 1)
@@ -33368,7 +33374,7 @@
 			(uuid "79a4f5bc-9574-4217-bc6a-a78aa409aebc")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D311")
 					(unit 1)
@@ -33444,7 +33450,7 @@
 			(uuid "35c1c4bd-8e49-49af-b8a7-00f5098a69a0")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D17")
 					(unit 1)
@@ -33520,7 +33526,7 @@
 			(uuid "3edcfda8-60f3-4147-a119-2ea2b565d18c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D332")
 					(unit 1)
@@ -33596,7 +33602,7 @@
 			(uuid "f7f53ca3-c131-48d4-a55e-52e6d618b67c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D295")
 					(unit 1)
@@ -33672,7 +33678,7 @@
 			(uuid "53894479-14c7-4660-b254-d61ad8dfb249")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D162")
 					(unit 1)
@@ -33748,7 +33754,7 @@
 			(uuid "16832f84-f96f-4aa2-8996-855f2850033b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D124")
 					(unit 1)
@@ -33824,7 +33830,7 @@
 			(uuid "bf3f8578-fa0a-4c0a-96d4-19dbbab1d8ad")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D391")
 					(unit 1)
@@ -33900,7 +33906,7 @@
 			(uuid "8ab26119-c01e-4fc6-9e15-b69e294db698")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D156")
 					(unit 1)
@@ -33976,7 +33982,7 @@
 			(uuid "ee1441bd-b9ce-44f0-9280-17753f7d95a6")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D313")
 					(unit 1)
@@ -34052,7 +34058,7 @@
 			(uuid "b36f0e43-0f35-4de8-bc2f-3a02331884be")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D318")
 					(unit 1)
@@ -34128,7 +34134,7 @@
 			(uuid "68d311fa-8ffc-450f-b93b-039425580e6b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D281")
 					(unit 1)
@@ -34204,7 +34210,7 @@
 			(uuid "967a6ea0-e6ec-4551-a617-fce01e1e1713")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D244")
 					(unit 1)
@@ -34280,7 +34286,7 @@
 			(uuid "9c6e2507-47ed-4b5a-9ce7-16685adebab1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D301")
 					(unit 1)
@@ -34356,7 +34362,7 @@
 			(uuid "031faeee-1ee9-4139-82be-40713022b08a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D167")
 					(unit 1)
@@ -34432,7 +34438,7 @@
 			(uuid "196caeb3-7ca4-4edd-9dd6-e02a1bd9be69")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D127")
 					(unit 1)
@@ -34508,7 +34514,7 @@
 			(uuid "6815d23b-83c9-42dd-a56b-14a32eb49b13")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D35")
 					(unit 1)
@@ -34584,7 +34590,7 @@
 			(uuid "659c71a2-acf3-4460-9d30-b5cf3d14b0a7")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D324")
 					(unit 1)
@@ -34660,7 +34666,7 @@
 			(uuid "a719068f-31da-4c1f-adf3-21721be8e571")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D255")
 					(unit 1)
@@ -34736,7 +34742,7 @@
 			(uuid "45febd17-6c40-42fd-a80f-47aa134edc79")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D396")
 					(unit 1)
@@ -34812,7 +34818,7 @@
 			(uuid "3c42eb60-2019-41e5-9d98-80eb78e6ac7f")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D310")
 					(unit 1)
@@ -34888,7 +34894,7 @@
 			(uuid "4a326a3e-7232-4bfe-a408-57ed2d3c4476")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D82")
 					(unit 1)
@@ -34964,7 +34970,7 @@
 			(uuid "eda5bb12-78fe-4dc2-8358-2c3380af8cb9")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D389")
 					(unit 1)
@@ -35040,7 +35046,7 @@
 			(uuid "0b46a912-6483-4ee9-940e-42bb899b3894")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D87")
 					(unit 1)
@@ -35116,7 +35122,7 @@
 			(uuid "69af7434-d09d-44d3-ad45-d1c7d6cb029e")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D394")
 					(unit 1)
@@ -35192,7 +35198,7 @@
 			(uuid "600027c9-96e9-45e4-8172-b6095a7e1cdc")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D88")
 					(unit 1)
@@ -35268,7 +35274,7 @@
 			(uuid "61ca1a56-01e7-46e5-bd02-2fed2fa1e289")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D243")
 					(unit 1)
@@ -35344,7 +35350,7 @@
 			(uuid "f1840473-3b94-4d8a-bd37-86296bb3762c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D327")
 					(unit 1)
@@ -35420,7 +35426,7 @@
 			(uuid "179a5936-e0aa-47bf-bbfd-05e550275b6a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D183")
 					(unit 1)
@@ -35496,7 +35502,7 @@
 			(uuid "e99c9b2a-69cb-4155-b437-2e76dffc938b")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D99")
 					(unit 1)
@@ -35572,7 +35578,7 @@
 			(uuid "38bfdc0c-361b-481e-8c50-f9e25f428a0f")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D75")
 					(unit 1)
@@ -35648,7 +35654,7 @@
 			(uuid "ecb17230-5659-41be-bdf3-65cf9383aad7")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D258")
 					(unit 1)
@@ -35724,7 +35730,7 @@
 			(uuid "de1025b1-8542-457c-9c64-16700fe09659")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D73")
 					(unit 1)
@@ -35800,7 +35806,7 @@
 			(uuid "c89337a8-cd22-4c9d-9cf3-04f7d6dfdcd1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D253")
 					(unit 1)
@@ -35876,7 +35882,7 @@
 			(uuid "ba21f32d-ccb9-484d-a368-cc83760e385f")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D234")
 					(unit 1)
@@ -35952,7 +35958,7 @@
 			(uuid "7baee383-a3ac-4854-b446-5450ca15e016")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D273")
 					(unit 1)
@@ -36028,7 +36034,7 @@
 			(uuid "6e2fb571-8699-4442-8898-f683bc282a0e")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D64")
 					(unit 1)
@@ -36104,7 +36110,7 @@
 			(uuid "fbfbd11f-de03-4435-b814-d9d5a2276fb6")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D210")
 					(unit 1)
@@ -36180,7 +36186,7 @@
 			(uuid "5727499c-9972-4774-a9e9-6820ef2b0d6f")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D143")
 					(unit 1)
@@ -36256,7 +36262,7 @@
 			(uuid "97900bc2-7dbb-4db0-a2a8-488f71901a06")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D364")
 					(unit 1)
@@ -36332,7 +36338,7 @@
 			(uuid "36d9b3c3-7676-4bdc-a15c-87de5d5ec8f1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D304")
 					(unit 1)
@@ -36408,7 +36414,7 @@
 			(uuid "948b37aa-d803-4a4a-8aeb-65923091cf3b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D116")
 					(unit 1)
@@ -36484,7 +36490,7 @@
 			(uuid "656a4ba5-5207-4fd0-b341-8407960d9828")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D11")
 					(unit 1)
@@ -36560,7 +36566,7 @@
 			(uuid "6864b5fe-e36a-4420-819f-321bff8405de")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D316")
 					(unit 1)
@@ -36596,7 +36602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 206.502 53.34 90)
 			(effects
 				(font
@@ -36639,7 +36645,7 @@
 			(uuid "2cafbcc2-5863-477c-86e4-816a4fe59cc5")
 		)
 		(instances
-			(project "panel"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R19")
 					(unit 1)
@@ -36715,7 +36721,7 @@
 			(uuid "462bd20f-5ab4-4d80-b251-f57f51a3c405")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D347")
 					(unit 1)
@@ -36751,7 +36757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 224.282 53.34 90)
 			(effects
 				(font
@@ -36794,7 +36800,7 @@
 			(uuid "67a59815-b2b2-44c5-a9c1-c6e01c74aea9")
 		)
 		(instances
-			(project "panel"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R20")
 					(unit 1)
@@ -36870,7 +36876,7 @@
 			(uuid "68bd9824-2cec-4b18-93dc-59d9e101c52b")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D299")
 					(unit 1)
@@ -36946,7 +36952,7 @@
 			(uuid "6f341580-584a-4c18-8552-5021bd2f1c03")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D256")
 					(unit 1)
@@ -37022,7 +37028,7 @@
 			(uuid "6617355d-1cf6-44a2-8e77-4fc392fb600a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D51")
 					(unit 1)
@@ -37098,7 +37104,7 @@
 			(uuid "1daac760-fc9f-46fd-9b3b-a3409b9d5ff3")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D298")
 					(unit 1)
@@ -37174,7 +37180,7 @@
 			(uuid "e6cb7008-f4ab-4fc0-bd94-19c802f3879f")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D191")
 					(unit 1)
@@ -37250,7 +37256,7 @@
 			(uuid "ae0be11b-f778-4f67-9f69-4abcb62f7fc0")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D264")
 					(unit 1)
@@ -37326,7 +37332,7 @@
 			(uuid "cdd9bdbc-c879-4374-a608-6b193b0fed6a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D309")
 					(unit 1)
@@ -37402,7 +37408,7 @@
 			(uuid "742712fe-fcba-4fe5-bc61-00231d1902a8")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D129")
 					(unit 1)
@@ -37478,7 +37484,7 @@
 			(uuid "a45158c6-2791-49cf-83df-4c7019b7d128")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D306")
 					(unit 1)
@@ -37554,7 +37560,7 @@
 			(uuid "1eaafe5d-30d4-4b9e-8143-2697f559fb3c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D286")
 					(unit 1)
@@ -37630,7 +37636,7 @@
 			(uuid "194596ce-f83d-41ea-854c-670b3cf1cfa7")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D67")
 					(unit 1)
@@ -37706,7 +37712,7 @@
 			(uuid "f9cc3f04-7272-403c-88e2-ef8f8574feec")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D61")
 					(unit 1)
@@ -37782,7 +37788,7 @@
 			(uuid "573c14c9-0a94-4495-8ef3-a6c38b887146")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D95")
 					(unit 1)
@@ -37858,7 +37864,7 @@
 			(uuid "dbc7d07e-a193-49a0-bf99-e8810ff85150")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D236")
 					(unit 1)
@@ -37934,7 +37940,7 @@
 			(uuid "254d354d-40cd-4eab-a377-f2824fdb87d1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D189")
 					(unit 1)
@@ -38010,7 +38016,7 @@
 			(uuid "ee4ceb0b-87a5-483c-960c-88568b5e5a10")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D111")
 					(unit 1)
@@ -38086,7 +38092,7 @@
 			(uuid "99ff483c-d5cf-43db-91ab-333e0033cd09")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D334")
 					(unit 1)
@@ -38162,7 +38168,7 @@
 			(uuid "52d0a3c9-8e92-4058-afcf-f7b2c2ffaaad")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D144")
 					(unit 1)
@@ -38238,7 +38244,7 @@
 			(uuid "df0cb772-d7dc-4933-9b8d-b4893a5e0647")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D159")
 					(unit 1)
@@ -38314,7 +38320,7 @@
 			(uuid "1b841b7d-4c5d-4409-81cd-e50bffeb6ef7")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D158")
 					(unit 1)
@@ -38390,7 +38396,7 @@
 			(uuid "700bd803-cb09-4409-8fcd-ca9b6eebdd5f")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D118")
 					(unit 1)
@@ -38466,7 +38472,7 @@
 			(uuid "9cb04ec9-7986-4969-9c77-97f533224060")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D375")
 					(unit 1)
@@ -38542,7 +38548,7 @@
 			(uuid "4dcd2a13-f63f-42bb-8214-816672a00b5c")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D381")
 					(unit 1)
@@ -38618,7 +38624,7 @@
 			(uuid "78ab47ed-c395-4660-acff-b096a2545acb")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D59")
 					(unit 1)
@@ -38694,7 +38700,7 @@
 			(uuid "a83d3632-e527-4ce9-8d4a-da26dfb62745")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D200")
 					(unit 1)
@@ -38770,7 +38776,7 @@
 			(uuid "2d138250-8b52-4484-a0c1-b3c8abc79225")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D42")
 					(unit 1)
@@ -38846,7 +38852,7 @@
 			(uuid "119ce8d0-72da-4fe8-ae18-4dfc0a385252")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D26")
 					(unit 1)
@@ -38922,7 +38928,7 @@
 			(uuid "30a0076f-cba5-4340-af04-ac15ce62bdb6")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D328")
 					(unit 1)
@@ -38998,7 +39004,7 @@
 			(uuid "2087fed3-81bf-48cb-8029-bd5555c9fd6f")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D151")
 					(unit 1)
@@ -39074,7 +39080,7 @@
 			(uuid "71a1678f-0d6a-4fa4-98c2-48cf86687411")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D366")
 					(unit 1)
@@ -39150,7 +39156,7 @@
 			(uuid "0506e8ae-80b1-49ef-a015-5fb382dc5d1a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D338")
 					(unit 1)
@@ -39226,7 +39232,7 @@
 			(uuid "6e61c079-9d0b-4b1b-8065-183db206a70d")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D114")
 					(unit 1)
@@ -39302,7 +39308,7 @@
 			(uuid "f750ff6d-bf89-4cdc-9528-e12b48ad3918")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D343")
 					(unit 1)
@@ -39378,7 +39384,7 @@
 			(uuid "03692224-e4ba-4d6a-b828-ffa0fda509b5")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D63")
 					(unit 1)
@@ -39454,7 +39460,7 @@
 			(uuid "b37e4706-dc9e-4fe6-af41-317c2500d089")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D33")
 					(unit 1)
@@ -39490,7 +39496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 117.602 53.34 90)
 			(effects
 				(font
@@ -39533,7 +39539,7 @@
 			(uuid "6a8cc573-226d-4d45-922e-33b33649ba72")
 		)
 		(instances
-			(project "panel"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R14")
 					(unit 1)
@@ -39609,7 +39615,7 @@
 			(uuid "1b85d375-c567-44a2-8660-95f8d616d3e0")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D274")
 					(unit 1)
@@ -39685,7 +39691,7 @@
 			(uuid "544e2a14-42ee-4bd1-842b-df7e5569f123")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D284")
 					(unit 1)
@@ -39761,7 +39767,7 @@
 			(uuid "b9d3582d-41e5-4e79-8b74-3b19cff56e76")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D39")
 					(unit 1)
@@ -39837,7 +39843,7 @@
 			(uuid "bf0438f2-8728-4f05-bcc2-25d2ffa8aeb4")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D361")
 					(unit 1)
@@ -39913,7 +39919,7 @@
 			(uuid "3a014be9-4350-48f9-aabc-789175853710")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D208")
 					(unit 1)
@@ -39989,7 +39995,7 @@
 			(uuid "d6a6a785-eb5c-4f01-a588-23a54b002cd1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D254")
 					(unit 1)
@@ -40065,7 +40071,7 @@
 			(uuid "9feb419d-ea90-4e19-a90f-111081ec9843")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D50")
 					(unit 1)
@@ -40141,7 +40147,7 @@
 			(uuid "d2a6b654-3408-4a20-8c40-a75d49a550fe")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D45")
 					(unit 1)
@@ -40217,7 +40223,7 @@
 			(uuid "fa21a106-72e2-4681-b73d-074c5ffb1684")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D382")
 					(unit 1)
@@ -40293,7 +40299,7 @@
 			(uuid "f3a2b71f-4ada-4322-9565-32e2f6c54b6a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D32")
 					(unit 1)
@@ -40369,7 +40375,7 @@
 			(uuid "009e3b2d-3d9c-4089-85d2-113aefee5544")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D133")
 					(unit 1)
@@ -40445,7 +40451,7 @@
 			(uuid "36dcf132-c006-46c6-981c-cf938a996ad9")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D141")
 					(unit 1)
@@ -40521,7 +40527,7 @@
 			(uuid "6d1d23ba-0568-4c5a-9afe-73988fad4920")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D393")
 					(unit 1)
@@ -40597,7 +40603,7 @@
 			(uuid "7f8003fe-6047-4e12-8c7c-3bfdbbbb15f4")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D363")
 					(unit 1)
@@ -40673,7 +40679,7 @@
 			(uuid "910cc4e2-f19d-4a90-b12a-51004ba8215c")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D319")
 					(unit 1)
@@ -40749,7 +40755,7 @@
 			(uuid "04a28160-bec4-4272-a111-493b29761a2f")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D166")
 					(unit 1)
@@ -40825,7 +40831,7 @@
 			(uuid "539c56e7-98ce-43e2-aa42-9833addbc610")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D46")
 					(unit 1)
@@ -40901,7 +40907,7 @@
 			(uuid "e603975f-df13-4f83-9dc5-d2763a759b5b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D290")
 					(unit 1)
@@ -40977,7 +40983,7 @@
 			(uuid "c5f66da8-d3ae-4854-850c-b8392e16d4f7")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D165")
 					(unit 1)
@@ -41053,7 +41059,7 @@
 			(uuid "aababc7f-d96f-48b8-9258-4f8715465b59")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D224")
 					(unit 1)
@@ -41129,7 +41135,7 @@
 			(uuid "4c8ce119-e2dd-45fb-8730-d60a9b3e6d47")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D357")
 					(unit 1)
@@ -41205,7 +41211,7 @@
 			(uuid "fe8800e3-75aa-496d-892d-788021e88917")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D185")
 					(unit 1)
@@ -41281,7 +41287,7 @@
 			(uuid "d4b39924-8fa7-4736-9da6-7f01e000fae4")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D155")
 					(unit 1)
@@ -41357,7 +41363,7 @@
 			(uuid "5cb2ab71-a0d9-418e-b982-bd3e5ac7e71f")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D240")
 					(unit 1)
@@ -41433,7 +41439,7 @@
 			(uuid "ecab634c-1c35-4112-bc14-c9959c0d5ec7")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D216")
 					(unit 1)
@@ -41509,7 +41515,7 @@
 			(uuid "13a1b629-beb7-4d83-8069-f201ef711932")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D131")
 					(unit 1)
@@ -41545,7 +41551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 350.012 53.34 90)
 			(effects
 				(font
@@ -41588,7 +41594,7 @@
 			(uuid "8e67e307-2f34-4732-8b5a-6f509ed00de3")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R27")
 					(unit 1)
@@ -41664,7 +41670,7 @@
 			(uuid "0e898c57-0920-4aeb-b014-803a3c29e798")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D330")
 					(unit 1)
@@ -41740,7 +41746,7 @@
 			(uuid "53abf7cd-b4ee-4e4a-9a2b-bf2e66df2b14")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D92")
 					(unit 1)
@@ -41816,7 +41822,7 @@
 			(uuid "acc5f269-c485-48d9-a155-6266e177a368")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D55")
 					(unit 1)
@@ -41892,7 +41898,7 @@
 			(uuid "315c6e9c-bc6b-4882-8c43-a94cc72afa16")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D120")
 					(unit 1)
@@ -41968,7 +41974,7 @@
 			(uuid "19c04bb7-5738-4470-8f25-ba34af47e8f0")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D201")
 					(unit 1)
@@ -42044,7 +42050,7 @@
 			(uuid "148fe019-917d-43c9-bd4c-f526a42cfee1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D344")
 					(unit 1)
@@ -42120,7 +42126,7 @@
 			(uuid "cee50ef1-0f2a-4abb-ab03-eb67eb998369")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D269")
 					(unit 1)
@@ -42196,7 +42202,7 @@
 			(uuid "af1cac9c-f3dc-42d4-adf7-39cdd85c63ca")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D142")
 					(unit 1)
@@ -42272,7 +42278,7 @@
 			(uuid "c8667b98-40b5-4af5-93dd-a9f57d1efa6b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D188")
 					(unit 1)
@@ -42348,7 +42354,7 @@
 			(uuid "49d41677-2927-4bfa-bcce-c2e6cd984dd6")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D360")
 					(unit 1)
@@ -42424,7 +42430,7 @@
 			(uuid "0c545480-4283-4590-966e-dc5d23a66de0")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D265")
 					(unit 1)
@@ -42500,7 +42506,7 @@
 			(uuid "bc84c2f3-715d-417b-844f-e12d4b1f2135")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D370")
 					(unit 1)
@@ -42576,7 +42582,7 @@
 			(uuid "006a06ca-94d5-4a07-bf48-873e448a30a8")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D242")
 					(unit 1)
@@ -42652,7 +42658,7 @@
 			(uuid "fc3e70a3-14f4-4be1-9a7b-637152987492")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D205")
 					(unit 1)
@@ -42728,7 +42734,7 @@
 			(uuid "34bb5122-eb92-486f-b5d2-48cf7886ab63")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D280")
 					(unit 1)
@@ -42804,7 +42810,7 @@
 			(uuid "9db01006-7622-4b9a-8f5f-1b0ca51b9e3a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D149")
 					(unit 1)
@@ -42880,7 +42886,7 @@
 			(uuid "394e93f9-2f63-4828-8a6b-ba752725ca0e")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D40")
 					(unit 1)
@@ -42956,7 +42962,7 @@
 			(uuid "e560fba9-c767-4a79-9f1b-5fe23ec3d859")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D76")
 					(unit 1)
@@ -43032,7 +43038,7 @@
 			(uuid "09c08347-fb74-48ac-9de0-5c270c8b500e")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D368")
 					(unit 1)
@@ -43108,7 +43114,7 @@
 			(uuid "d5c0dfe5-7aea-4bf2-bf8d-609480febce5")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D184")
 					(unit 1)
@@ -43184,7 +43190,7 @@
 			(uuid "81ba903a-763f-4ecb-b80d-de916143d19a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D277")
 					(unit 1)
@@ -43260,7 +43266,7 @@
 			(uuid "e4a9b4b3-ec42-4652-9957-7d7b848a4f81")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D132")
 					(unit 1)
@@ -43336,7 +43342,7 @@
 			(uuid "47cdbf80-2f66-4ea4-ac4f-1a5702c385e7")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D121")
 					(unit 1)
@@ -43412,7 +43418,7 @@
 			(uuid "8792bccd-7a52-4292-92d7-653538ae457a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D235")
 					(unit 1)
@@ -43488,7 +43494,7 @@
 			(uuid "1bf0afc8-1da3-45f0-8006-4da7fa958ac9")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D384")
 					(unit 1)
@@ -43564,7 +43570,7 @@
 			(uuid "3b7c6054-0029-4a2b-a35b-49c31b8a8e00")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D209")
 					(unit 1)
@@ -43640,7 +43646,7 @@
 			(uuid "ecd75181-812a-4533-9227-1e17a96b1595")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D83")
 					(unit 1)
@@ -43716,7 +43722,7 @@
 			(uuid "5614d5c0-824d-424e-a254-1a2fcfd3726b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D225")
 					(unit 1)
@@ -43792,7 +43798,7 @@
 			(uuid "85ceb6b1-2106-40e1-acfd-e13edfaf4fe2")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D125")
 					(unit 1)
@@ -43868,7 +43874,7 @@
 			(uuid "5557232b-b4f4-4b68-adf6-7ceea47a915c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D175")
 					(unit 1)
@@ -43944,7 +43950,7 @@
 			(uuid "7a1a9438-f3c6-4e5a-adf0-fcca0a6b4f55")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D173")
 					(unit 1)
@@ -44020,7 +44026,7 @@
 			(uuid "22a6f8da-d83c-47eb-91b5-84fc507948a1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D333")
 					(unit 1)
@@ -44096,7 +44102,7 @@
 			(uuid "daeb1280-5099-4961-a123-f834cebc2645")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D138")
 					(unit 1)
@@ -44172,7 +44178,7 @@
 			(uuid "9e0be417-84cd-43c1-9dc5-7f6a0149b7d6")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D31")
 					(unit 1)
@@ -44248,7 +44254,7 @@
 			(uuid "79452e41-b190-4d61-9c2b-dff4bf406c6e")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D266")
 					(unit 1)
@@ -44324,7 +44330,7 @@
 			(uuid "a64cadf1-3678-4546-8c04-efb64f04cd52")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D163")
 					(unit 1)
@@ -44400,7 +44406,7 @@
 			(uuid "e227799e-ed5b-46dc-8d75-d8e9ce91e3ec")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D350")
 					(unit 1)
@@ -44476,7 +44482,7 @@
 			(uuid "afdcb3f6-8de3-4d8b-badd-75ac317d78c4")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D37")
 					(unit 1)
@@ -44552,7 +44558,7 @@
 			(uuid "37785cd6-4e4e-42ca-992d-03782191fb3a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D261")
 					(unit 1)
@@ -44628,7 +44634,7 @@
 			(uuid "fe59d8b3-0827-4a81-9e26-e4c3c5f87778")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D246")
 					(unit 1)
@@ -44704,7 +44710,7 @@
 			(uuid "4541ae5d-e1d0-4375-a05b-255db491c416")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D1")
 					(unit 1)
@@ -44780,7 +44786,7 @@
 			(uuid "595638ec-3d60-4934-99a8-5904020efb0b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D287")
 					(unit 1)
@@ -44856,7 +44862,7 @@
 			(uuid "72e1d459-90c0-4c3f-8477-11e92223927b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D241")
 					(unit 1)
@@ -44932,7 +44938,7 @@
 			(uuid "ffb5da5f-08b3-409f-b9d6-90ba497932d1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D41")
 					(unit 1)
@@ -45008,7 +45014,7 @@
 			(uuid "4ac732ea-12d3-423a-86b9-f66b384769fe")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D22")
 					(unit 1)
@@ -45084,7 +45090,7 @@
 			(uuid "6bea049d-2421-4539-8c1a-23208cbd41c6")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D154")
 					(unit 1)
@@ -45160,7 +45166,7 @@
 			(uuid "9a58fa97-d18f-4e51-8f33-6b7143cee61f")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D139")
 					(unit 1)
@@ -45236,7 +45242,7 @@
 			(uuid "5a77fd9b-be99-4a1f-aa21-f948a8771680")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D14")
 					(unit 1)
@@ -45312,7 +45318,7 @@
 			(uuid "82f7ffad-d26e-41d1-b1a9-12c564f338ce")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D56")
 					(unit 1)
@@ -45388,7 +45394,7 @@
 			(uuid "8e4f43e1-0f97-4c82-883d-7ba98b60140f")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D380")
 					(unit 1)
@@ -45464,7 +45470,7 @@
 			(uuid "b6057f19-eff5-4c93-9ba1-dc0e07fde054")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D251")
 					(unit 1)
@@ -45540,7 +45546,7 @@
 			(uuid "fca19917-f8c8-413f-b860-49e23e662fd9")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D262")
 					(unit 1)
@@ -45576,7 +45582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 170.942 53.34 90)
 			(effects
 				(font
@@ -45619,7 +45625,7 @@
 			(uuid "82bca9ca-5e7e-4ed3-a7c8-a598e92ff1f9")
 		)
 		(instances
-			(project "panel"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R17")
 					(unit 1)
@@ -45655,7 +45661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 330.962 53.34 90)
 			(effects
 				(font
@@ -45698,7 +45704,7 @@
 			(uuid "a90e7921-ed7e-42ca-a001-efde1bba00b9")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R26")
 					(unit 1)
@@ -45774,7 +45780,7 @@
 			(uuid "6d3d60f1-cf61-452a-b8e2-37315167b5da")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D378")
 					(unit 1)
@@ -45850,7 +45856,7 @@
 			(uuid "f9cde8f7-4cbd-4f6d-afaf-9e8a0c830b84")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D379")
 					(unit 1)
@@ -45926,7 +45932,7 @@
 			(uuid "5be25596-9b96-494a-b041-7f9aecad1b42")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D3")
 					(unit 1)
@@ -46002,7 +46008,7 @@
 			(uuid "3b02efb7-8b8c-48cd-ae57-678bdfd5f5b6")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D20")
 					(unit 1)
@@ -46078,7 +46084,7 @@
 			(uuid "6a0b2608-94af-4edb-8b5f-f29db28efc51")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D249")
 					(unit 1)
@@ -46154,7 +46160,7 @@
 			(uuid "3af14f79-e836-445d-a069-f89f5f3753f8")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D192")
 					(unit 1)
@@ -46230,7 +46236,7 @@
 			(uuid "d4676382-ce08-41eb-aca1-8100aa4e653d")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D237")
 					(unit 1)
@@ -46306,7 +46312,7 @@
 			(uuid "7d8c06e5-f574-4c58-af30-790a50efc34a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D305")
 					(unit 1)
@@ -46382,7 +46388,7 @@
 			(uuid "78caeb81-857f-4991-9686-8772c7ddcd0f")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D245")
 					(unit 1)
@@ -46458,7 +46464,7 @@
 			(uuid "5ce7dca7-73d7-48a0-86d5-893be49fbb07")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D231")
 					(unit 1)
@@ -46494,7 +46500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 28.702 53.34 90)
 			(effects
 				(font
@@ -46537,7 +46543,7 @@
 			(uuid "c920bce2-bddd-4746-81f0-b73696d3a9a9")
 		)
 		(instances
-			(project "panel"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R9")
 					(unit 1)
@@ -46573,7 +46579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 188.722 53.34 90)
 			(effects
 				(font
@@ -46616,7 +46622,7 @@
 			(uuid "2dc27474-c81e-4e03-937b-12894f763b18")
 		)
 		(instances
-			(project "panel"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R18")
 					(unit 1)
@@ -46692,7 +46698,7 @@
 			(uuid "4ca049df-5601-4d9a-803f-5c3f5d5e62e5")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D101")
 					(unit 1)
@@ -46768,7 +46774,7 @@
 			(uuid "925feef4-b2b9-4518-a700-9ee30532d5db")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D27")
 					(unit 1)
@@ -46844,7 +46850,7 @@
 			(uuid "36133fc5-a32f-4c29-9c73-9f49250feca3")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D337")
 					(unit 1)
@@ -46920,7 +46926,7 @@
 			(uuid "6c556567-4043-4d9d-a683-d2032f352768")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D170")
 					(unit 1)
@@ -46996,7 +47002,7 @@
 			(uuid "e7b927de-8d09-42cd-b547-37467f3d32de")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D52")
 					(unit 1)
@@ -47072,7 +47078,7 @@
 			(uuid "a9e3e8f8-cc20-4149-852a-baaeb1700382")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D342")
 					(unit 1)
@@ -47148,7 +47154,7 @@
 			(uuid "9956f94c-e9f7-4833-913c-15792d03dc4d")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D6")
 					(unit 1)
@@ -47224,7 +47230,7 @@
 			(uuid "d46581cb-3518-4660-a41c-aefcb202a8ad")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D341")
 					(unit 1)
@@ -47300,7 +47306,7 @@
 			(uuid "95c25a05-091a-4246-9495-562cc57e3582")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D238")
 					(unit 1)
@@ -47376,7 +47382,7 @@
 			(uuid "248700d3-fa9a-4591-984a-fb4160ace5b5")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D148")
 					(unit 1)
@@ -47452,7 +47458,7 @@
 			(uuid "2e35440e-566d-4740-bf27-99be330b691e")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D217")
 					(unit 1)
@@ -47528,7 +47534,7 @@
 			(uuid "0e963ab6-13b5-4c1d-a437-45d0b5fb7482")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D229")
 					(unit 1)
@@ -47604,7 +47610,7 @@
 			(uuid "276b69ed-3e7e-4f57-95f6-427e9397c34b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D103")
 					(unit 1)
@@ -47680,7 +47686,7 @@
 			(uuid "80f8f784-03c6-4b22-b5f3-f4824c0977d5")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D307")
 					(unit 1)
@@ -47756,7 +47762,7 @@
 			(uuid "bdede256-fc84-4073-aa0a-991bc98312aa")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D9")
 					(unit 1)
@@ -47792,7 +47798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 99.822 53.34 90)
 			(effects
 				(font
@@ -47835,7 +47841,7 @@
 			(uuid "6c0ae995-2be1-42e9-b0f6-698535d8161f")
 		)
 		(instances
-			(project "panel"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R13")
 					(unit 1)
@@ -47911,7 +47917,7 @@
 			(uuid "3fd446ff-75b4-45e8-8d5e-2418d4491bcc")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D84")
 					(unit 1)
@@ -47987,7 +47993,7 @@
 			(uuid "27e7868c-7e0d-419c-9c9f-f9a6c4b07e95")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D198")
 					(unit 1)
@@ -48063,7 +48069,7 @@
 			(uuid "ff690adf-b663-4034-bbbf-0d44b1b94a28")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D308")
 					(unit 1)
@@ -48139,7 +48145,7 @@
 			(uuid "1cae3569-414c-4ea5-95d3-373dfba7f6d9")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D399")
 					(unit 1)
@@ -48215,7 +48221,7 @@
 			(uuid "2b5a46d3-5ef5-4227-93af-1866a701ba7b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D89")
 					(unit 1)
@@ -48291,7 +48297,7 @@
 			(uuid "7ba3e57e-4cd4-4856-bde8-c879db988be1")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D371")
 					(unit 1)
@@ -48367,7 +48373,7 @@
 			(uuid "f6dd80cf-b72d-4289-98e9-237a3aab51b6")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D178")
 					(unit 1)
@@ -48443,7 +48449,7 @@
 			(uuid "73602d9e-2494-4c27-a0b8-e3ed6671d779")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D90")
 					(unit 1)
@@ -48519,7 +48525,7 @@
 			(uuid "8c852560-cf00-41eb-bf49-ed759c08186d")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D104")
 					(unit 1)
@@ -48595,7 +48601,7 @@
 			(uuid "b52bac74-1597-470e-9079-357ecee156c3")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D226")
 					(unit 1)
@@ -48671,7 +48677,7 @@
 			(uuid "05ed2dc1-3735-4f8e-8ab0-ea4f48143425")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D147")
 					(unit 1)
@@ -48747,7 +48753,7 @@
 			(uuid "c9f3a16c-6db4-47f9-a735-2dfa91ce66de")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D233")
 					(unit 1)
@@ -48823,7 +48829,7 @@
 			(uuid "c3cf654a-372a-4b2d-b602-5ff5c425a061")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D260")
 					(unit 1)
@@ -48899,7 +48905,7 @@
 			(uuid "5d8ad4a0-e254-4820-abf8-cbab9e0dba57")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D257")
 					(unit 1)
@@ -48975,7 +48981,7 @@
 			(uuid "4e3ff7e9-5138-46b2-8ccb-9ceb9095934c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D47")
 					(unit 1)
@@ -49051,7 +49057,7 @@
 			(uuid "79ee729f-d4e7-4930-bcb4-d3dd42f9bff7")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D187")
 					(unit 1)
@@ -49127,7 +49133,7 @@
 			(uuid "e471bcab-b0fa-423b-ba64-ffdba809601d")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D186")
 					(unit 1)
@@ -49203,7 +49209,7 @@
 			(uuid "e3a5229d-4399-4053-aca4-204d22c070be")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D5")
 					(unit 1)
@@ -49279,7 +49285,7 @@
 			(uuid "e568b5a7-e59a-4d45-b24c-5a90e3de1528")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D215")
 					(unit 1)
@@ -49355,7 +49361,7 @@
 			(uuid "0f56a87a-ced5-4b15-a41a-29c9c19e5b40")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D60")
 					(unit 1)
@@ -49431,7 +49437,7 @@
 			(uuid "74868b87-c1d9-426c-92f8-a9bef99beeb2")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D302")
 					(unit 1)
@@ -49507,7 +49513,7 @@
 			(uuid "f88b15be-9242-41e8-8aab-3e91d90e204f")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D100")
 					(unit 1)
@@ -49583,7 +49589,7 @@
 			(uuid "f2b2b6ff-541b-4ce8-8a7b-0bc7b80876fb")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D356")
 					(unit 1)
@@ -49659,7 +49665,7 @@
 			(uuid "3da3eb4a-e9ee-46ac-a051-e0b03029126d")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D385")
 					(unit 1)
@@ -49735,7 +49741,7 @@
 			(uuid "69df6d70-79ce-4a4e-b00b-a6179d281a80")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D212")
 					(unit 1)
@@ -49811,7 +49817,7 @@
 			(uuid "fd837c2e-d58c-4191-9398-16e7d1c12ad3")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D288")
 					(unit 1)
@@ -49887,7 +49893,7 @@
 			(uuid "c81aa858-72cb-4d97-8f8b-492edc346951")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D351")
 					(unit 1)
@@ -49963,7 +49969,7 @@
 			(uuid "7ec1afb7-16aa-4e8e-9f96-1f0ab28fcf40")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D128")
 					(unit 1)
@@ -50039,7 +50045,7 @@
 			(uuid "f26fd594-3c25-437f-a364-326d5a9d9f68")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D13")
 					(unit 1)
@@ -50115,7 +50121,7 @@
 			(uuid "e7c6a0ec-c6c8-4469-9cf3-793a30100bab")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D267")
 					(unit 1)
@@ -50191,7 +50197,7 @@
 			(uuid "79d22bbe-beca-411e-98b6-0b2b0886d879")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D66")
 					(unit 1)
@@ -50267,7 +50273,7 @@
 			(uuid "531f4e89-a0d3-4d61-af55-d905008f4b9a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D314")
 					(unit 1)
@@ -50343,7 +50349,7 @@
 			(uuid "3aebb03a-83c5-4b0c-8607-76295e7b2444")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D44")
 					(unit 1)
@@ -50379,7 +50385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 46.482 53.34 90)
 			(effects
 				(font
@@ -50422,7 +50428,7 @@
 			(uuid "4d772342-31d6-440e-b5c0-dda780315c66")
 		)
 		(instances
-			(project "panel"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R10")
 					(unit 1)
@@ -50498,7 +50504,7 @@
 			(uuid "15f8e8b2-52ba-4cd3-a854-15acff4a651b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D190")
 					(unit 1)
@@ -50574,7 +50580,7 @@
 			(uuid "0f1cabe5-2bc7-47e5-81fc-3fddb991fa0e")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D292")
 					(unit 1)
@@ -50650,7 +50656,7 @@
 			(uuid "157cf890-7bcc-4d61-af6e-3f446d3a25e5")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D15")
 					(unit 1)
@@ -50726,7 +50732,7 @@
 			(uuid "90f1c2e1-0c4b-423f-b36c-730d67fe6af0")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D65")
 					(unit 1)
@@ -50802,7 +50808,7 @@
 			(uuid "a8f7acac-2a98-4e7b-8102-2a323e6bbd12")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D283")
 					(unit 1)
@@ -50878,7 +50884,7 @@
 			(uuid "bddfec6a-7f71-44b1-9f7d-c8b61aa12396")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D150")
 					(unit 1)
@@ -50954,7 +50960,7 @@
 			(uuid "86a696cb-a6a8-4389-92c5-5610606aabd2")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D275")
 					(unit 1)
@@ -51030,7 +51036,7 @@
 			(uuid "a6456c15-fd52-44b3-9b25-1078e6f931b0")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D395")
 					(unit 1)
@@ -51106,7 +51112,7 @@
 			(uuid "f9b53155-f6b7-4f86-ad4d-9a32b8c9f6ba")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D126")
 					(unit 1)
@@ -51182,7 +51188,7 @@
 			(uuid "d5e565ea-2c2f-4297-a0b2-4bbcc3bba2f5")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D181")
 					(unit 1)
@@ -51258,7 +51264,7 @@
 			(uuid "acbab6d3-0bab-412e-9000-2a6a0fcaffea")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D354")
 					(unit 1)
@@ -51334,7 +51340,7 @@
 			(uuid "071e6a77-6687-4949-822c-da6911664f37")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D317")
 					(unit 1)
@@ -51410,7 +51416,7 @@
 			(uuid "cea631a4-6737-40a0-abfc-e83ccbb32e9b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D346")
 					(unit 1)
@@ -51486,7 +51492,7 @@
 			(uuid "6d15e82b-2fe3-4650-b068-5cd49e15b0cb")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D271")
 					(unit 1)
@@ -51562,7 +51568,7 @@
 			(uuid "3a6071d1-60db-4954-a12a-39af9dc3f076")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D135")
 					(unit 1)
@@ -51638,7 +51644,7 @@
 			(uuid "c2df70d9-120c-4e56-bd64-73616dcd61c2")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D203")
 					(unit 1)
@@ -51714,7 +51720,7 @@
 			(uuid "486657f7-4b24-4eb5-a3b6-d7e7830075c6")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D195")
 					(unit 1)
@@ -51790,7 +51796,7 @@
 			(uuid "fc6e3d56-617e-4e7b-869b-7f6244fd4925")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D164")
 					(unit 1)
@@ -51866,7 +51872,7 @@
 			(uuid "b923b025-c270-4b72-9f7a-2ae988d72a6c")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D386")
 					(unit 1)
@@ -51942,7 +51948,7 @@
 			(uuid "e0313f0a-c3ac-4950-9be4-b65eac13cc6a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D345")
 					(unit 1)
@@ -52018,7 +52024,7 @@
 			(uuid "65f22e72-cb13-4904-897e-2653e8a77e33")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D300")
 					(unit 1)
@@ -52094,7 +52100,7 @@
 			(uuid "e3d9f1c9-d13e-43b6-91ea-8a2999792578")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D137")
 					(unit 1)
@@ -52170,7 +52176,7 @@
 			(uuid "dc2ff728-62f1-4739-b78a-fa5ed452d5f1")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D367")
 					(unit 1)
@@ -52246,7 +52252,7 @@
 			(uuid "7ad949f7-eff7-44fc-82d1-b5c4e5361196")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D335")
 					(unit 1)
@@ -52322,7 +52328,7 @@
 			(uuid "8979de77-27bd-458b-874b-e95713f6aff1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D7")
 					(unit 1)
@@ -52398,7 +52404,7 @@
 			(uuid "451e6761-484d-48ae-b3a6-a00af72c2e64")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D196")
 					(unit 1)
@@ -52474,7 +52480,7 @@
 			(uuid "c86d971f-89d3-4168-b96e-6b64ed95b406")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D270")
 					(unit 1)
@@ -52510,7 +52516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 242.062 53.34 90)
 			(effects
 				(font
@@ -52553,7 +52559,7 @@
 			(uuid "42adcb83-72f7-4d5f-b7f8-d4f6068d01d1")
 		)
 		(instances
-			(project "panel"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R21")
 					(unit 1)
@@ -52629,7 +52635,7 @@
 			(uuid "158938ed-9427-4412-8962-3b0e7512d185")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D285")
 					(unit 1)
@@ -52705,7 +52711,7 @@
 			(uuid "ef25b4f1-ece1-4568-b411-35040b9bf057")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D374")
 					(unit 1)
@@ -52781,7 +52787,7 @@
 			(uuid "61cef17b-e51b-4867-a4d6-a3a21d2f76c2")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D320")
 					(unit 1)
@@ -52857,7 +52863,7 @@
 			(uuid "305ed94f-9c46-433d-88a4-59f981053773")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D136")
 					(unit 1)
@@ -52933,7 +52939,7 @@
 			(uuid "d745a285-5cdd-465b-8577-82f77fd59886")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D145")
 					(unit 1)
@@ -53009,7 +53015,7 @@
 			(uuid "09e902dd-aada-4b7d-aa57-a973765511f5")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D19")
 					(unit 1)
@@ -53085,7 +53091,7 @@
 			(uuid "de0ffd60-5e40-48c4-9b4a-c0c15c7983fb")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D57")
 					(unit 1)
@@ -53161,7 +53167,7 @@
 			(uuid "fc352557-e07d-468f-8def-d33edbf15f2e")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D122")
 					(unit 1)
@@ -53237,7 +53243,7 @@
 			(uuid "2fc7c530-57eb-4f3e-aec2-3e28d3d81dab")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D252")
 					(unit 1)
@@ -53313,7 +53319,7 @@
 			(uuid "f18260e5-26e7-4ff7-92ce-b50a0e7d4fed")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D211")
 					(unit 1)
@@ -53389,7 +53395,7 @@
 			(uuid "47801b86-c08e-4eaf-a459-44f095377658")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D239")
 					(unit 1)
@@ -53465,7 +53471,7 @@
 			(uuid "6838e05c-0365-44f9-8507-a9926dfa69ad")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D250")
 					(unit 1)
@@ -53541,7 +53547,7 @@
 			(uuid "dd2b942f-2502-4e98-a962-c76d9d5d88e9")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D43")
 					(unit 1)
@@ -53617,7 +53623,7 @@
 			(uuid "fe8d9040-cad0-4984-8826-9502ebf12bc7")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D373")
 					(unit 1)
@@ -53693,7 +53699,7 @@
 			(uuid "4968dba4-04a2-4465-801a-5dcc501be31f")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D68")
 					(unit 1)
@@ -53769,7 +53775,7 @@
 			(uuid "568e47b5-1406-4f07-83ab-ff5548c23d7d")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D294")
 					(unit 1)
@@ -53845,7 +53851,7 @@
 			(uuid "d5ef01a6-9b94-40f8-9e1f-370a754b436b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D272")
 					(unit 1)
@@ -53921,7 +53927,7 @@
 			(uuid "1352f367-96b2-498d-ab44-59fc86877f05")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D179")
 					(unit 1)
@@ -53997,7 +54003,7 @@
 			(uuid "362fdc1e-9e05-4a22-9a45-ea22e92e01e4")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D207")
 					(unit 1)
@@ -54073,7 +54079,7 @@
 			(uuid "161b9235-dd8e-4e02-961d-285e9584da4a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D177")
 					(unit 1)
@@ -54149,7 +54155,7 @@
 			(uuid "7fde6b57-0822-4fdc-92d1-0bb735c49531")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D197")
 					(unit 1)
@@ -54225,7 +54231,7 @@
 			(uuid "481faa79-bb6d-4293-afe2-5b7bc3bb91a9")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D230")
 					(unit 1)
@@ -54301,7 +54307,7 @@
 			(uuid "dc2c66ee-c699-4c63-babb-a2f6fc424ff2")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D102")
 					(unit 1)
@@ -54377,7 +54383,7 @@
 			(uuid "178848eb-e9d1-46c9-96ea-e2df6d1241de")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D180")
 					(unit 1)
@@ -54453,7 +54459,7 @@
 			(uuid "61c6825b-0828-4297-9277-c08ec38cf117")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D152")
 					(unit 1)
@@ -54529,7 +54535,7 @@
 			(uuid "13c83e15-8117-480b-bb3a-51b5ac1600d3")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D348")
 					(unit 1)
@@ -54605,7 +54611,7 @@
 			(uuid "324c937c-a824-4046-ba28-2db2d1b08207")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D206")
 					(unit 1)
@@ -54681,7 +54687,7 @@
 			(uuid "089c1567-7d14-497b-9ea0-d65148557933")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D397")
 					(unit 1)
@@ -54757,7 +54763,7 @@
 			(uuid "4c94a52a-6a1d-414a-b26f-bfc1062b0e8f")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D199")
 					(unit 1)
@@ -54833,7 +54839,7 @@
 			(uuid "02c7de40-d105-4eb0-94ed-ff9fd512f2a8")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D16")
 					(unit 1)
@@ -54909,7 +54915,7 @@
 			(uuid "7494e416-50e4-4638-89d8-a82c4f0f5242")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D227")
 					(unit 1)
@@ -54985,7 +54991,7 @@
 			(uuid "65971081-99ca-4da3-adbb-54db53d17eb8")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D130")
 					(unit 1)
@@ -55061,7 +55067,7 @@
 			(uuid "13475916-3489-4ffa-854e-d883616e2a4b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D36")
 					(unit 1)
@@ -55137,7 +55143,7 @@
 			(uuid "c4f35d32-7119-4260-b0d7-4b6d9b0fcf56")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D325")
 					(unit 1)
@@ -55213,7 +55219,7 @@
 			(uuid "7c630109-98d8-497e-bb21-ae4bbbb7a82d")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D18")
 					(unit 1)
@@ -55289,7 +55295,7 @@
 			(uuid "7c3963fd-e37e-45ef-aa3d-adb5c4217bed")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D279")
 					(unit 1)
@@ -55365,7 +55371,7 @@
 			(uuid "ac494ae5-c401-435e-b0b1-08f17c31e362")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D107")
 					(unit 1)
@@ -55441,7 +55447,7 @@
 			(uuid "0570fec3-129e-440c-99a6-615a38356e71")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D202")
 					(unit 1)
@@ -55517,7 +55523,7 @@
 			(uuid "49d5d24b-c6fe-46d7-a59b-0aa5a66608cc")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D340")
 					(unit 1)
@@ -55593,7 +55599,7 @@
 			(uuid "be470719-5c7d-4e12-a72d-4d04861554b5")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D349")
 					(unit 1)
@@ -55669,7 +55675,7 @@
 			(uuid "74b08487-c78b-4eea-a984-02af85a51bcb")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D34")
 					(unit 1)
@@ -55745,7 +55751,7 @@
 			(uuid "7d6fb1b2-af31-4ad6-b455-a9a2aa2802a3")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D62")
 					(unit 1)
@@ -55821,7 +55827,7 @@
 			(uuid "500da0d8-46c7-416f-b97f-2b6405efc17b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D117")
 					(unit 1)
@@ -55897,7 +55903,7 @@
 			(uuid "ea90061d-7ff3-42de-b078-abdcedad9c07")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D268")
 					(unit 1)
@@ -55973,7 +55979,7 @@
 			(uuid "f8f33af9-f8a3-4bce-a4c7-49e0a11ce2c7")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D113")
 					(unit 1)
@@ -56009,7 +56015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 295.402 53.34 90)
 			(effects
 				(font
@@ -56052,7 +56058,7 @@
 			(uuid "57220eb9-6291-479c-8c9c-739c757c0ce4")
 		)
 		(instances
-			(project "panel"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R24")
 					(unit 1)
@@ -56128,7 +56134,7 @@
 			(uuid "c32d4a08-9ddb-431b-8e6a-a0e1a177af43")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D10")
 					(unit 1)
@@ -56204,7 +56210,7 @@
 			(uuid "e4e4bfa0-91d2-4a82-908c-677474886fdb")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D193")
 					(unit 1)
@@ -56280,7 +56286,7 @@
 			(uuid "1a124df7-e71d-4303-ac45-1579747b9cde")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D157")
 					(unit 1)
@@ -56356,7 +56362,7 @@
 			(uuid "031d0a91-3aa5-4d24-968b-6c9556297353")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D312")
 					(unit 1)
@@ -56432,7 +56438,7 @@
 			(uuid "3c6f1406-30bf-4df9-8250-6c8e222f25ab")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D115")
 					(unit 1)
@@ -56508,7 +56514,7 @@
 			(uuid "ddab9f22-7f29-45e5-9528-9606807d6fa9")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D96")
 					(unit 1)
@@ -56584,7 +56590,7 @@
 			(uuid "5db52b17-d576-487e-a339-8ce912435a49")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D218")
 					(unit 1)
@@ -56660,7 +56666,7 @@
 			(uuid "9be04cab-f62c-4055-8ed3-ac2c1ea7adc7")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D388")
 					(unit 1)
@@ -56696,7 +56702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 313.182 53.34 90)
 			(effects
 				(font
@@ -56739,7 +56745,7 @@
 			(uuid "3288b6f9-8586-4711-b7ad-ea5ca6337d4c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R25")
 					(unit 1)
@@ -56815,7 +56821,7 @@
 			(uuid "6952af6f-15f0-4623-89b4-c6b50df6ac42")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D23")
 					(unit 1)
@@ -56891,7 +56897,7 @@
 			(uuid "4561dc0b-d2c1-4485-8f2f-67e356d76691")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D400")
 					(unit 1)
@@ -56967,7 +56973,7 @@
 			(uuid "0309988a-2ade-42c0-a40f-8da2716f36ac")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D278")
 					(unit 1)
@@ -57003,7 +57009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 135.382 53.34 90)
 			(effects
 				(font
@@ -57046,7 +57052,7 @@
 			(uuid "0ca9d9b8-4104-4ece-84d8-083c681e8a15")
 		)
 		(instances
-			(project "panel"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "R15")
 					(unit 1)
@@ -57122,7 +57128,7 @@
 			(uuid "736b4704-1604-42fe-b879-ffa05aea00e4")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D369")
 					(unit 1)
@@ -57198,7 +57204,7 @@
 			(uuid "3ccf31b5-d8d1-49d6-a9c1-77263ffa2453")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D171")
 					(unit 1)
@@ -57274,7 +57280,7 @@
 			(uuid "48e57889-b15a-4ec8-ac08-3eca0820406c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D98")
 					(unit 1)
@@ -57350,7 +57356,7 @@
 			(uuid "139b6f34-5438-4ef0-975b-2a9df18a68a6")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D377")
 					(unit 1)
@@ -57426,7 +57432,7 @@
 			(uuid "b8ab6968-c857-43d2-af58-00bc86237ea6")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D28")
 					(unit 1)
@@ -57502,7 +57508,7 @@
 			(uuid "93631e70-fa30-4e6f-9071-696f15101280")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D398")
 					(unit 1)
@@ -57578,7 +57584,7 @@
 			(uuid "da8877f3-3b31-461e-a20f-3b2ca752ba9d")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D93")
 					(unit 1)
@@ -57654,7 +57660,7 @@
 			(uuid "a3c58adc-9195-43d3-8426-2833e832c90a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D336")
 					(unit 1)
@@ -57730,7 +57736,7 @@
 			(uuid "29b52041-2492-42f0-9d59-37f08d1b5ff6")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D297")
 					(unit 1)
@@ -57806,7 +57812,7 @@
 			(uuid "2569c36e-ce58-4944-863c-3e78b3e58387")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D392")
 					(unit 1)
@@ -57882,7 +57888,7 @@
 			(uuid "3ba3de4d-def4-43f6-8a1f-2dc3011c01b9")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D79")
 					(unit 1)
@@ -57958,7 +57964,7 @@
 			(uuid "5a9d625b-01df-4d62-8f16-30c01c1261c2")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D70")
 					(unit 1)
@@ -58034,7 +58040,7 @@
 			(uuid "3577932d-93b5-4057-a1d6-7f681e4adc3a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/9e6027a1-8475-463d-b347-a287726616e8"
 					(reference "D276")
 					(unit 1)

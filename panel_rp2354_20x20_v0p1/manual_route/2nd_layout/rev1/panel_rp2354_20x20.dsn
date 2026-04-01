@@ -653,17 +653,17 @@
     (component "panel_custom:TS-1088-AR02016"
       (place SW1 60870.000000 -79295.000000 back 90.000000 (PN SW_Push))
     )
-    (component RP2350_80QFN_minimal:C_0402_1005Metric_small_pads
+    (component panel_custom:C_0402_1005Metric_small_pads
       (place C4 75500.000000 -82400.000000 back 180.000000 (PN 4.7uF))
       (place C5 75440.000000 -83375.000000 back 180.000000 (PN 4.7uF))
     )
     (component Capacitor_SMD:C_0201_0603Metric::2
       (place C18 69960.000000 -83275.000000 back 90.000000 (PN 100nF))
     )
-    (component "RP2350_80QFN_minimal:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
+    (component "panel_custom:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
       (place U2 72500.000000 -76000.000000 back 180.000000 (PN RP2354B_80QFN))
     )
-    (component RP2350_80QFN_minimal:L_pol_2016
+    (component panel_custom:L_pol_2016
       (place L1 75500.000000 -85025.000000 back 180.000000 (PN 3.3uH))
     )
     (component "panel_custom:TS-1088-AR02016::1"
@@ -942,7 +942,7 @@
       (pin Rect[T]Pad_1350.000000x1800.000000_um 1 -2075 0)
       (pin Rect[T]Pad_1350.000000x1800.000000_um 2 2075 0)
     )
-    (image RP2350_80QFN_minimal:C_0402_1005Metric_small_pads
+    (image panel_custom:C_0402_1005Metric_small_pads
       (outline (path signal 50  -910 -460  -910 460))
       (outline (path signal 50  -910 460  910 460))
       (outline (path signal 50  910 -460  -910 -460))
@@ -966,7 +966,7 @@
       (pin RoundRect[T]Pad_460.000000x400.000000_100.381000_um_0.000000_0 1 -320 0)
       (pin RoundRect[T]Pad_460.000000x400.000000_100.381000_um_0.000000_0 2 320 0)
     )
-    (image "RP2350_80QFN_minimal:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
+    (image "panel_custom:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
       (outline (path signal 120  -5150 -5150  -5150 -4200))
       (outline (path signal 120  -4200 -5150  -5150 -5150))
       (outline (path signal 120  -4200 5150  -5390 5150))
@@ -1073,7 +1073,7 @@
       (pin Rect[T]Pad_1133.333000x1133.333000_um 81@7 1133.33 0)
       (pin Rect[T]Pad_1133.333000x1133.333000_um 81@8 1133.33 1133.33)
     )
-    (image RP2350_80QFN_minimal:L_pol_2016
+    (image panel_custom:L_pol_2016
       (outline (path signal 100  -758.579 1300  -774.778 1234.28  -819.664 1183.61  -882.954 1159.61
             -950.149 1167.77  -1005.86 1206.22  -1037.31 1266.16  -1037.31 1333.84
             -1005.86 1393.78  -950.149 1432.23  -882.954 1440.39  -819.664 1416.39

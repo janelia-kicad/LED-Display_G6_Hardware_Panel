@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "21fff72a-f96b-43d0-8bde-1e114c1f7615")
 	(paper "User" 457.2 457.2)
+	(title_block
+		(title "G6 Panel")
+		(date "2026-04-01")
+		(rev "0.1.3")
+		(company "Janelia Research Campus")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -8686,7 +8692,7 @@
 			(uuid "68c12a0e-7033-47b1-855d-6822b06c8364")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR040")
 					(unit 1)
@@ -8720,7 +8726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 76.2 295.91 0)
 			(effects
 				(font
@@ -8772,7 +8778,7 @@
 			(uuid "78feaa20-368a-4e09-b346-49be799df594")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U10")
 					(unit 1)
@@ -8837,7 +8843,7 @@
 			(uuid "3e54b3c5-7ba1-48ea-8ee2-0fa2d9fff2a1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR031")
 					(unit 1)
@@ -8873,7 +8879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 250.19 222.25 0)
 			(effects
 				(font
@@ -8916,7 +8922,7 @@
 			(uuid "36deeb8f-0023-4147-b19c-820261d92b9b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C44")
 					(unit 1)
@@ -8981,7 +8987,7 @@
 			(uuid "b79cd324-e5df-4dfe-9243-f55cdf9e0d9f")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR094")
 					(unit 1)
@@ -9046,7 +9052,7 @@
 			(uuid "b69925d3-253e-4e78-99cd-276670c2e71c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR075")
 					(unit 1)
@@ -9111,7 +9117,7 @@
 			(uuid "131de62e-958d-4f66-b5c3-3b80b4f462be")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR046")
 					(unit 1)
@@ -9176,7 +9182,7 @@
 			(uuid "26c51d27-ea9d-4b71-b9aa-78ec912711a1")
 		)
 		(instances
-			(project ""
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR022")
 					(unit 1)
@@ -9241,7 +9247,7 @@
 			(uuid "a4b55e78-5c55-49b1-9866-d40148d76852")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0110")
 					(unit 1)
@@ -9306,7 +9312,7 @@
 			(uuid "3e70e35f-cdde-412a-a3d5-20913ea1de1c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0101")
 					(unit 1)
@@ -9340,7 +9346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 330.2 158.75 0)
 			(effects
 				(font
@@ -9392,7 +9398,7 @@
 			(uuid "bf2f7850-b508-4dd7-a4b9-1ceb4dbc7fb4")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U36")
 					(unit 1)
@@ -9457,7 +9463,7 @@
 			(uuid "6b75b31b-0fd5-4a5d-9072-ea1a9b975cb8")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR050")
 					(unit 1)
@@ -9491,7 +9497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 264.16 90.17 0)
 			(effects
 				(font
@@ -9543,7 +9549,7 @@
 			(uuid "7660cb21-9da9-48cc-b22d-994d5ea6a617")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U24")
 					(unit 1)
@@ -9608,7 +9614,7 @@
 			(uuid "f378065c-74d4-484c-8c7c-3807943c6d80")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR083")
 					(unit 1)
@@ -9673,7 +9679,7 @@
 			(uuid "7e106120-b049-4f06-9f6d-408bf836ec2f")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR091")
 					(unit 1)
@@ -9738,7 +9744,7 @@
 			(uuid "167d5164-37c6-489b-90cb-ce20653bbc9e")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR074")
 					(unit 1)
@@ -9774,7 +9780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 128.27 119.38 0)
 			(effects
 				(font
@@ -9817,7 +9823,7 @@
 			(uuid "ac3bff7b-99ac-40b5-aa6f-c2af498af80b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C31")
 					(unit 1)
@@ -9882,7 +9888,7 @@
 			(uuid "9c3ee6a9-9c71-4a13-aa8b-c85eaed5a447")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0131")
 					(unit 1)
@@ -9918,7 +9924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 250.19 85.09 0)
 			(effects
 				(font
@@ -9961,7 +9967,7 @@
 			(uuid "6a043093-c88e-4da6-96a6-e0a6a6fd8d47")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C40")
 					(unit 1)
@@ -10026,7 +10032,7 @@
 			(uuid "a4e1c5e8-e566-49fd-83f8-9ec91da16987")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0114")
 					(unit 1)
@@ -10091,7 +10097,7 @@
 			(uuid "829f8bc4-6aef-43de-9fe3-1b6056e41076")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR051")
 					(unit 1)
@@ -10156,7 +10162,7 @@
 			(uuid "c67b0d4e-0ccf-447a-9fcd-77d294903ff8")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR034")
 					(unit 1)
@@ -10221,7 +10227,7 @@
 			(uuid "4ddfbc96-f894-4736-9b5b-f7fd6d3be853")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR043")
 					(unit 1)
@@ -10257,7 +10263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "panel_custom:C_0402_1005Metric"
 			(at 382.5748 173.99 0)
 			(effects
 				(font
@@ -10300,7 +10306,7 @@
 			(uuid "a62e8656-ff07-4765-9edd-60dd061eb913")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C63")
 					(unit 1)
@@ -10334,7 +10340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 142.24 261.62 0)
 			(effects
 				(font
@@ -10386,7 +10392,7 @@
 			(uuid "0d3f6f09-cac9-404e-869b-42cb3732db95")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U19")
 					(unit 1)
@@ -10451,7 +10457,7 @@
 			(uuid "99b4f63e-6315-447d-b0f2-da2b5c5e3dc7")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0102")
 					(unit 1)
@@ -10485,7 +10491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 142.24 330.2 0)
 			(effects
 				(font
@@ -10537,7 +10543,7 @@
 			(uuid "211f28a8-a377-4cc7-be0a-249d04cb3d80")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U21")
 					(unit 1)
@@ -10602,7 +10608,7 @@
 			(uuid "b53dd4c0-a00c-4c3c-80b3-b80da9fb0659")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR069")
 					(unit 1)
@@ -10636,7 +10642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 330.2 295.91 0)
 			(effects
 				(font
@@ -10688,7 +10694,7 @@
 			(uuid "6e3666ae-db8e-4411-be00-0834b6eb00de")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U40")
 					(unit 1)
@@ -10753,7 +10759,7 @@
 			(uuid "c7de98d4-effa-4fc1-accb-c9cf0eb96799")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0136")
 					(unit 1)
@@ -10818,7 +10824,7 @@
 			(uuid "fd28472a-a9f7-408a-9f87-e528daf5e71d")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0108")
 					(unit 1)
@@ -10883,7 +10889,7 @@
 			(uuid "8b9ceb42-b3e9-4fcf-8b90-a0ce24fb8e2f")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR089")
 					(unit 1)
@@ -10948,7 +10954,7 @@
 			(uuid "fd2624ec-0019-4990-a486-f540862916b5")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR023")
 					(unit 1)
@@ -11013,7 +11019,7 @@
 			(uuid "ceb5a427-1824-4cb7-b71e-2faddb23271c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR095")
 					(unit 1)
@@ -11047,7 +11053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 330.2 364.49 0)
 			(effects
 				(font
@@ -11099,7 +11105,7 @@
 			(uuid "6d6ff2d9-b555-42eb-894c-4047851db2aa")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U42")
 					(unit 1)
@@ -11164,7 +11170,7 @@
 			(uuid "2e741a45-8562-4e1c-bfea-70b51af2d77c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR035")
 					(unit 1)
@@ -11229,7 +11235,7 @@
 			(uuid "7eb0b27a-ad41-4415-8cc7-9fcfdcf74d46")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0111")
 					(unit 1)
@@ -11263,7 +11269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 76.2 124.46 0)
 			(effects
 				(font
@@ -11315,7 +11321,7 @@
 			(uuid "6fc4daff-225c-4626-a2d9-fa2ba0e9b81f")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U5")
 					(unit 1)
@@ -11351,7 +11357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 128.27 359.41 0)
 			(effects
 				(font
@@ -11394,7 +11400,7 @@
 			(uuid "03155074-0000-4fbc-8841-02e3dd71b286")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C38")
 					(unit 1)
@@ -11459,7 +11465,7 @@
 			(uuid "b1a02cc7-0409-435e-82d9-4ebda0865f17")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR070")
 					(unit 1)
@@ -11524,7 +11530,7 @@
 			(uuid "2e3db984-5f9e-4c37-acf9-54cdb0b9c70a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR066")
 					(unit 1)
@@ -11560,7 +11566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 316.23 359.41 0)
 			(effects
 				(font
@@ -11603,7 +11609,7 @@
 			(uuid "82dba595-bed8-48b9-8182-8500964776b3")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C58")
 					(unit 1)
@@ -11668,7 +11674,7 @@
 			(uuid "aad7e86c-2f71-47f0-ae38-0ec9c2d6b376")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR047")
 					(unit 1)
@@ -11704,7 +11710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 250.19 50.8 0)
 			(effects
 				(font
@@ -11747,7 +11753,7 @@
 			(uuid "fe95e831-985e-41dd-9fd7-0a4399dd9d48")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C39")
 					(unit 1)
@@ -11783,7 +11789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "panel_custom:C_0402_1005Metric"
 			(at 382.5748 62.23 0)
 			(effects
 				(font
@@ -11826,7 +11832,7 @@
 			(uuid "48c083bf-3d8f-4962-9dd1-57e7d55efaef")
 		)
 		(instances
-			(project ""
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C59")
 					(unit 1)
@@ -11860,7 +11866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 264.16 227.33 0)
 			(effects
 				(font
@@ -11912,7 +11918,7 @@
 			(uuid "6db13a64-5471-4bb1-92ee-ab60680bf320")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U28")
 					(unit 1)
@@ -11977,7 +11983,7 @@
 			(uuid "bd45745d-fa1f-47c2-be3e-e6ab2b633b97")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR088")
 					(unit 1)
@@ -12013,7 +12019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 128.27 153.67 0)
 			(effects
 				(font
@@ -12056,7 +12062,7 @@
 			(uuid "cfb7a4d2-2ff8-45f3-9dd7-b7eb3b669a97")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C32")
 					(unit 1)
@@ -12121,7 +12127,7 @@
 			(uuid "c6a194bd-2a6d-49d3-a7eb-86c5c44b987e")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0106")
 					(unit 1)
@@ -12157,7 +12163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 62.23 85.09 0)
 			(effects
 				(font
@@ -12200,7 +12206,7 @@
 			(uuid "f001789d-5d96-4aa7-ac46-f2e9081118d5")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C20")
 					(unit 1)
@@ -12265,7 +12271,7 @@
 			(uuid "437f647a-1f98-4759-aca7-580c16ac7f08")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0100")
 					(unit 1)
@@ -12299,7 +12305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 76.2 364.49 0)
 			(effects
 				(font
@@ -12351,7 +12357,7 @@
 			(uuid "877dd0c3-ff37-4f51-9c0a-906ec53d2ef0")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U12")
 					(unit 1)
@@ -12385,7 +12391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 330.2 55.88 0)
 			(effects
 				(font
@@ -12437,7 +12443,7 @@
 			(uuid "dbb702e8-77d0-4a38-ac11-fbc574076966")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U33")
 					(unit 1)
@@ -12471,7 +12477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 330.2 90.17 0)
 			(effects
 				(font
@@ -12523,7 +12529,7 @@
 			(uuid "dadb045c-57de-467f-8a1f-c82827cace5f")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U34")
 					(unit 1)
@@ -12559,7 +12565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 316.23 325.12 0)
 			(effects
 				(font
@@ -12602,7 +12608,7 @@
 			(uuid "f542965d-147a-43b8-b2dc-82e689a6dd3a")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C57")
 					(unit 1)
@@ -12667,7 +12673,7 @@
 			(uuid "169ec1a0-6813-4be8-9936-ac57c485cd46")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR080")
 					(unit 1)
@@ -12703,7 +12709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "panel_custom:C_0402_1005Metric"
 			(at 382.5748 344.17 0)
 			(effects
 				(font
@@ -12746,7 +12752,7 @@
 			(uuid "ba558f87-df52-4fdb-ab95-601216bb6b28")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C71")
 					(unit 1)
@@ -12811,7 +12817,7 @@
 			(uuid "4b2f9f62-388b-4798-b181-1f6762b6e361")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR064")
 					(unit 1)
@@ -12847,7 +12853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "panel_custom:C_0402_1005Metric"
 			(at 382.5748 288.29 0)
 			(effects
 				(font
@@ -12890,7 +12896,7 @@
 			(uuid "9e9e6080-8c6d-47d5-b572-accbedd11a06")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C69")
 					(unit 1)
@@ -12924,7 +12930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 264.16 295.91 0)
 			(effects
 				(font
@@ -12976,7 +12982,7 @@
 			(uuid "54730c76-e2d1-43b8-a9c8-810c3eb93213")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U30")
 					(unit 1)
@@ -13041,7 +13047,7 @@
 			(uuid "e93543f2-09d1-4879-81f1-c1a2fcd80a1b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR028")
 					(unit 1)
@@ -13106,7 +13112,7 @@
 			(uuid "e2c009e4-c50a-4190-99c5-b437ef694d6a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0105")
 					(unit 1)
@@ -13142,7 +13148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 62.23 256.54 0)
 			(effects
 				(font
@@ -13185,7 +13191,7 @@
 			(uuid "ce0285c1-3f1e-4885-b915-f98211056a44")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C25")
 					(unit 1)
@@ -13219,7 +13225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 142.24 364.49 0)
 			(effects
 				(font
@@ -13271,7 +13277,7 @@
 			(uuid "3c611e8a-299a-4c45-a915-24c496fc77e0")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U22")
 					(unit 1)
@@ -13307,7 +13313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 128.27 325.12 0)
 			(effects
 				(font
@@ -13350,7 +13356,7 @@
 			(uuid "3a9e4ab1-16f5-4d5d-a8fd-e1b658dc299e")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C37")
 					(unit 1)
@@ -13386,7 +13392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 62.23 119.38 0)
 			(effects
 				(font
@@ -13429,7 +13435,7 @@
 			(uuid "a5f4d07c-450f-4467-9798-1adc61871110")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C21")
 					(unit 1)
@@ -13494,7 +13500,7 @@
 			(uuid "00a64bd4-bc93-45b5-8a14-52214f223a40")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR048")
 					(unit 1)
@@ -13559,7 +13565,7 @@
 			(uuid "8284f4d8-028d-4c04-8cfe-048f1375d8b9")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0133")
 					(unit 1)
@@ -13624,7 +13630,7 @@
 			(uuid "3349bf85-d970-4682-b400-0db4400b7fbc")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0134")
 					(unit 1)
@@ -13658,7 +13664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 264.16 364.49 0)
 			(effects
 				(font
@@ -13710,7 +13716,7 @@
 			(uuid "cc9db27e-06d3-46ad-aef2-c9343583d660")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U32")
 					(unit 1)
@@ -13775,7 +13781,7 @@
 			(uuid "956e3838-96c3-4a82-bd3a-14019dabd632")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR097")
 					(unit 1)
@@ -13811,7 +13817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 316.23 85.09 0)
 			(effects
 				(font
@@ -13854,7 +13860,7 @@
 			(uuid "3a39cae8-15ad-4fdd-a600-951b1cb8e0c6")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C50")
 					(unit 1)
@@ -13919,7 +13925,7 @@
 			(uuid "9fcd2c1c-3e50-4f74-8f10-a4e78dcf505e")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR081")
 					(unit 1)
@@ -13953,7 +13959,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 330.2 124.46 0)
 			(effects
 				(font
@@ -14005,7 +14011,7 @@
 			(uuid "1dd792d9-1633-4414-b8dd-46cde4c8b148")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U35")
 					(unit 1)
@@ -14041,7 +14047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 128.27 290.83 0)
 			(effects
 				(font
@@ -14084,7 +14090,7 @@
 			(uuid "04abf0e6-015e-4160-ac18-93441acf9f95")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C36")
 					(unit 1)
@@ -14149,7 +14155,7 @@
 			(uuid "5b768487-5f55-4c30-82c5-fdbf30cb0471")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR026")
 					(unit 1)
@@ -14214,7 +14220,7 @@
 			(uuid "1c355290-9928-4f9b-aa3a-5207e1cb47d9")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0129")
 					(unit 1)
@@ -14279,7 +14285,7 @@
 			(uuid "649a3303-267c-47e2-804a-e380bf7897a2")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0109")
 					(unit 1)
@@ -14315,7 +14321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 316.23 256.54 0)
 			(effects
 				(font
@@ -14358,7 +14364,7 @@
 			(uuid "b948197d-1752-40a6-8cf0-edc4316f2361")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C55")
 					(unit 1)
@@ -14394,7 +14400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 250.19 359.41 0)
 			(effects
 				(font
@@ -14437,7 +14443,7 @@
 			(uuid "cd41c00f-7ab3-4428-85f9-018220e29cc1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C48")
 					(unit 1)
@@ -14471,7 +14477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 264.16 330.2 0)
 			(effects
 				(font
@@ -14523,7 +14529,7 @@
 			(uuid "327a6fbb-926c-4ab6-a461-6439c977a3e8")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U31")
 					(unit 1)
@@ -14588,7 +14594,7 @@
 			(uuid "c3c836f7-99b0-4b2f-a84c-72404792b22e")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR044")
 					(unit 1)
@@ -14622,7 +14628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 330.2 193.04 0)
 			(effects
 				(font
@@ -14674,7 +14680,7 @@
 			(uuid "35c54c9e-ee04-4dcb-834e-149003af8dc5")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U37")
 					(unit 1)
@@ -14739,7 +14745,7 @@
 			(uuid "4b0e5e8d-e29a-452f-b150-ab96b2ef68e8")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR039")
 					(unit 1)
@@ -14775,7 +14781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "panel_custom:C_0402_1005Metric"
 			(at 382.5748 316.23 0)
 			(effects
 				(font
@@ -14818,7 +14824,7 @@
 			(uuid "40059767-f8c5-4c96-b0f2-e81328bcf75c")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C70")
 					(unit 1)
@@ -14883,7 +14889,7 @@
 			(uuid "33b59867-f05a-44b5-9212-e55a1c4dd89c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR038")
 					(unit 1)
@@ -14948,7 +14954,7 @@
 			(uuid "3f9d5107-de6c-456e-bdc4-f90f07772f5a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0113")
 					(unit 1)
@@ -15013,7 +15019,7 @@
 			(uuid "cdeda256-c8aa-4073-b238-eaa8a253f720")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR071")
 					(unit 1)
@@ -15049,7 +15055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 316.23 222.25 0)
 			(effects
 				(font
@@ -15092,7 +15098,7 @@
 			(uuid "a94ed765-e26e-47f0-a5fc-e056988b98c5")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C54")
 					(unit 1)
@@ -15157,7 +15163,7 @@
 			(uuid "b4734ac9-39aa-41d3-91a8-c33e6887b325")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR027")
 					(unit 1)
@@ -15193,7 +15199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 62.23 153.67 0)
 			(effects
 				(font
@@ -15236,7 +15242,7 @@
 			(uuid "4b837f1d-7370-4f95-86c7-aee04c519027")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C22")
 					(unit 1)
@@ -15270,7 +15276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 76.2 261.62 0)
 			(effects
 				(font
@@ -15322,7 +15328,7 @@
 			(uuid "cb35d854-2eb5-450a-8e3f-a3d944d11f89")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U9")
 					(unit 1)
@@ -15387,7 +15393,7 @@
 			(uuid "d113f2ec-a821-49da-b4b4-3e6c98ae1654")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR057")
 					(unit 1)
@@ -15452,7 +15458,7 @@
 			(uuid "168f592a-b351-476e-a2ed-3edf5224f694")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR093")
 					(unit 1)
@@ -15488,7 +15494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 316.23 290.83 0)
 			(effects
 				(font
@@ -15531,7 +15537,7 @@
 			(uuid "88aa0d74-25d8-4a63-aa29-b976a327de1e")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C56")
 					(unit 1)
@@ -15596,7 +15602,7 @@
 			(uuid "3a7c5eaf-86c2-49e5-a6ae-a66aaeb1e061")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR049")
 					(unit 1)
@@ -15632,7 +15638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 250.19 153.67 0)
 			(effects
 				(font
@@ -15675,7 +15681,7 @@
 			(uuid "83bec0fb-7616-443f-bbf2-b3368cf15ac1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C42")
 					(unit 1)
@@ -15740,7 +15746,7 @@
 			(uuid "54135ed5-2377-435d-be16-05395c70a908")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR025")
 					(unit 1)
@@ -15774,7 +15780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 76.2 193.04 0)
 			(effects
 				(font
@@ -15826,7 +15832,7 @@
 			(uuid "fd1b7d55-b19d-4cd5-a840-7a95c265d759")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U7")
 					(unit 1)
@@ -15891,7 +15897,7 @@
 			(uuid "5ac853d3-cd10-47cd-835c-522ee49a2177")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR068")
 					(unit 1)
@@ -15927,7 +15933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "panel_custom:C_0402_1005Metric"
 			(at 410.5148 146.05 0)
 			(effects
 				(font
@@ -15970,7 +15976,7 @@
 			(uuid "7fe6f955-de10-4d1a-af4a-15df1ff8738a")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C76")
 					(unit 1)
@@ -16035,7 +16041,7 @@
 			(uuid "f502ea49-73bd-4b20-af5b-66d9d892472d")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0130")
 					(unit 1)
@@ -16100,7 +16106,7 @@
 			(uuid "339a62fa-f041-4381-80ad-7682ba232f62")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR092")
 					(unit 1)
@@ -16136,7 +16142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "panel_custom:C_0402_1005Metric"
 			(at 382.5748 372.11 0)
 			(effects
 				(font
@@ -16179,7 +16185,7 @@
 			(uuid "93ade6fc-922d-4a5b-9e5d-b795602db9b8")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C72")
 					(unit 1)
@@ -16213,7 +16219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 142.24 227.33 0)
 			(effects
 				(font
@@ -16265,7 +16271,7 @@
 			(uuid "25d7d63f-6b34-4350-bc84-888d94c1b51d")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U18")
 					(unit 1)
@@ -16299,7 +16305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 142.24 295.91 0)
 			(effects
 				(font
@@ -16351,7 +16357,7 @@
 			(uuid "c6d78ad8-5338-4659-8959-e549f5795b92")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U20")
 					(unit 1)
@@ -16385,7 +16391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 76.2 227.33 0)
 			(effects
 				(font
@@ -16437,7 +16443,7 @@
 			(uuid "28f36741-800b-42c0-b805-fcbe645015ec")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U8")
 					(unit 1)
@@ -16502,7 +16508,7 @@
 			(uuid "4a3653fe-336b-4d3d-8a9c-686d845c206d")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR065")
 					(unit 1)
@@ -16536,7 +16542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 264.16 55.88 0)
 			(effects
 				(font
@@ -16588,7 +16594,7 @@
 			(uuid "26c9f040-b664-4fe8-95a6-eb7191405236")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U23")
 					(unit 1)
@@ -16624,7 +16630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 62.23 50.8 0)
 			(effects
 				(font
@@ -16667,7 +16673,7 @@
 			(uuid "f3b7e478-f242-4b14-a2db-125f3586d375")
 		)
 		(instances
-			(project ""
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C19")
 					(unit 1)
@@ -16732,7 +16738,7 @@
 			(uuid "c45a8c88-7245-4915-8a59-aa5155ffb82e")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR042")
 					(unit 1)
@@ -16797,7 +16803,7 @@
 			(uuid "3ebba7f0-d34e-47fb-84ad-39499f35ad20")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0104")
 					(unit 1)
@@ -16833,7 +16839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "panel_custom:C_0402_1005Metric"
 			(at 382.5748 146.05 0)
 			(effects
 				(font
@@ -16876,7 +16882,7 @@
 			(uuid "ff5762bb-3836-4432-89b1-d6782ccac9b9")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C62")
 					(unit 1)
@@ -16912,7 +16918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 62.23 290.83 0)
 			(effects
 				(font
@@ -16955,7 +16961,7 @@
 			(uuid "7910eb06-71d3-4af8-a30e-0c3cd04bde18")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C26")
 					(unit 1)
@@ -16989,7 +16995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 76.2 55.88 0)
 			(effects
 				(font
@@ -17041,7 +17047,7 @@
 			(uuid "1ca28a7d-4bb2-43f1-ab17-b84f29a21379")
 		)
 		(instances
-			(project ""
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U3")
 					(unit 1)
@@ -17075,7 +17081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 76.2 330.2 0)
 			(effects
 				(font
@@ -17127,7 +17133,7 @@
 			(uuid "6c0efa6e-0300-4316-bebb-56cdc8c3972a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U11")
 					(unit 1)
@@ -17163,7 +17169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 250.19 119.38 0)
 			(effects
 				(font
@@ -17206,7 +17212,7 @@
 			(uuid "b549391c-741b-43a6-be4a-acf8c34ee25e")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C41")
 					(unit 1)
@@ -17240,7 +17246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 76.2 158.75 0)
 			(effects
 				(font
@@ -17292,7 +17298,7 @@
 			(uuid "b7c063e9-3452-4e2a-95ed-4afde999e8d8")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U6")
 					(unit 1)
@@ -17357,7 +17363,7 @@
 			(uuid "082e1bd7-f1d2-4efb-9671-7e11091d93d1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR053")
 					(unit 1)
@@ -17422,7 +17428,7 @@
 			(uuid "38f71f0d-7f61-48be-b93e-053977bfdba1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR096")
 					(unit 1)
@@ -17456,7 +17462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 76.2 90.17 0)
 			(effects
 				(font
@@ -17508,7 +17514,7 @@
 			(uuid "4a256998-f8d8-4ae1-9b10-9d40f2bf0f11")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U4")
 					(unit 1)
@@ -17544,7 +17550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 62.23 187.96 0)
 			(effects
 				(font
@@ -17587,7 +17593,7 @@
 			(uuid "42e95864-1c86-4708-8ffd-aea6dac886df")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C23")
 					(unit 1)
@@ -17652,7 +17658,7 @@
 			(uuid "dc6a32f8-8402-4203-96f0-c743df4750ff")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0135")
 					(unit 1)
@@ -17717,7 +17723,7 @@
 			(uuid "3ace412d-0902-402a-a651-4a65295033b4")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR084")
 					(unit 1)
@@ -17782,7 +17788,7 @@
 			(uuid "8cb1f2e7-2ef0-47f1-92fd-1c37b9435515")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR078")
 					(unit 1)
@@ -17816,7 +17822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 264.16 124.46 0)
 			(effects
 				(font
@@ -17868,7 +17874,7 @@
 			(uuid "73e35cb2-8260-4008-a0c2-373309c658fe")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U25")
 					(unit 1)
@@ -17904,7 +17910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "panel_custom:C_0402_1005Metric"
 			(at 410.5148 62.23 0)
 			(effects
 				(font
@@ -17947,7 +17953,7 @@
 			(uuid "d4c9d311-9ba8-480e-9f3e-fb9160db33fa")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C73")
 					(unit 1)
@@ -17983,7 +17989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "panel_custom:C_0402_1005Metric"
 			(at 382.5748 118.11 0)
 			(effects
 				(font
@@ -18026,7 +18032,7 @@
 			(uuid "e8e48cb4-adfc-4417-aa3a-c3f4bd923c13")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C61")
 					(unit 1)
@@ -18091,7 +18097,7 @@
 			(uuid "fefa6cef-fe11-4019-910e-e679c8ec4d8d")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR032")
 					(unit 1)
@@ -18156,7 +18162,7 @@
 			(uuid "a686eace-8189-44c0-a632-468d52f58e9e")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR086")
 					(unit 1)
@@ -18221,7 +18227,7 @@
 			(uuid "42dec893-c010-42c4-9106-3ebad52c8cf7")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0112")
 					(unit 1)
@@ -18286,7 +18292,7 @@
 			(uuid "c3c76b2a-28eb-4260-b2db-ab607c537b4b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR087")
 					(unit 1)
@@ -18322,7 +18328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 128.27 256.54 0)
 			(effects
 				(font
@@ -18365,7 +18371,7 @@
 			(uuid "2e12f231-2dc4-4c71-9cbb-8a843f796dad")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C35")
 					(unit 1)
@@ -18399,7 +18405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 330.2 261.62 0)
 			(effects
 				(font
@@ -18451,7 +18457,7 @@
 			(uuid "0de6e5e5-62c2-4fd7-8d30-da598cce2ad3")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U39")
 					(unit 1)
@@ -18516,7 +18522,7 @@
 			(uuid "61929a3f-5021-41ed-8aa8-f2b792efcb89")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR037")
 					(unit 1)
@@ -18581,7 +18587,7 @@
 			(uuid "d4175fa4-51a5-4bfb-a014-727a6c08aade")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0137")
 					(unit 1)
@@ -18617,7 +18623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 250.19 290.83 0)
 			(effects
 				(font
@@ -18660,7 +18666,7 @@
 			(uuid "1eb102c6-4d8f-43b6-b62e-538d5580d95d")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C46")
 					(unit 1)
@@ -18696,7 +18702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "panel_custom:C_0402_1005Metric"
 			(at 410.5148 118.11 0)
 			(effects
 				(font
@@ -18739,7 +18745,7 @@
 			(uuid "394c0fb4-9837-4129-b7da-3e00c1c25627")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C75")
 					(unit 1)
@@ -18775,7 +18781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 316.23 119.38 0)
 			(effects
 				(font
@@ -18818,7 +18824,7 @@
 			(uuid "78e28d18-8e08-40f6-a9d2-ab9570b188d0")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C51")
 					(unit 1)
@@ -18852,7 +18858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 330.2 227.33 0)
 			(effects
 				(font
@@ -18904,7 +18910,7 @@
 			(uuid "388e6fa6-50fc-4f2e-b5b4-92dae74cb580")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U38")
 					(unit 1)
@@ -18969,7 +18975,7 @@
 			(uuid "7f3e29a7-5bbe-41a2-9d04-120a2afed9a1")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0125")
 					(unit 1)
@@ -19034,7 +19040,7 @@
 			(uuid "01e78384-6fe2-4bd1-a559-368c8bdb2f88")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0139")
 					(unit 1)
@@ -19099,7 +19105,7 @@
 			(uuid "ea0ad7b2-3368-427f-abfb-403af7011250")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR099")
 					(unit 1)
@@ -19133,7 +19139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 142.24 193.04 0)
 			(effects
 				(font
@@ -19185,7 +19191,7 @@
 			(uuid "ba69cf2f-af12-48f5-8837-38e5373fe7e5")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U17")
 					(unit 1)
@@ -19250,7 +19256,7 @@
 			(uuid "12e3e440-c9fd-41fb-91c0-3793832c6fd3")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR036")
 					(unit 1)
@@ -19315,7 +19321,7 @@
 			(uuid "436d0d02-2826-4c99-a8da-eaa3c8e6629d")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR059")
 					(unit 1)
@@ -19380,7 +19386,7 @@
 			(uuid "a359b35a-678e-46ab-9356-7a2fbd0626b8")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR072")
 					(unit 1)
@@ -19416,7 +19422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 250.19 325.12 0)
 			(effects
 				(font
@@ -19459,7 +19465,7 @@
 			(uuid "9972be31-d747-4fce-bebf-50d3a952d905")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C47")
 					(unit 1)
@@ -19495,7 +19501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "panel_custom:C_0402_1005Metric"
 			(at 410.5148 90.17 0)
 			(effects
 				(font
@@ -19538,7 +19544,7 @@
 			(uuid "7cf4b375-6e6b-4f77-bf01-75912f310148")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C74")
 					(unit 1)
@@ -19603,7 +19609,7 @@
 			(uuid "d47b3105-4791-473f-82aa-43d684c35267")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR076")
 					(unit 1)
@@ -19668,7 +19674,7 @@
 			(uuid "a34c7d83-5ad1-49da-8805-cde193ba9852")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0140")
 					(unit 1)
@@ -19704,7 +19710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 316.23 153.67 0)
 			(effects
 				(font
@@ -19747,7 +19753,7 @@
 			(uuid "2fc41a07-8098-435a-9152-0aef24dc3b69")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C52")
 					(unit 1)
@@ -19812,7 +19818,7 @@
 			(uuid "673d08b9-a9a6-4af7-946e-302c0fb9513c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0103")
 					(unit 1)
@@ -19877,7 +19883,7 @@
 			(uuid "bff88600-d707-4f68-91ef-184f290caed2")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR060")
 					(unit 1)
@@ -19942,7 +19948,7 @@
 			(uuid "b7adc653-8e19-4678-b29f-b6d1ad5a1a13")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0138")
 					(unit 1)
@@ -20007,7 +20013,7 @@
 			(uuid "e8b2bc32-a2b4-4e17-97bd-fc8991e113d2")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR055")
 					(unit 1)
@@ -20041,7 +20047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 142.24 55.88 0)
 			(effects
 				(font
@@ -20093,7 +20099,7 @@
 			(uuid "1977ed52-9d72-45e1-bd31-b1671f973f14")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U13")
 					(unit 1)
@@ -20158,7 +20164,7 @@
 			(uuid "b93e1a3d-6098-4378-9d87-f24244d79c18")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR062")
 					(unit 1)
@@ -20223,7 +20229,7 @@
 			(uuid "da3f6c89-1e03-4320-a97d-111a62d8579f")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR061")
 					(unit 1)
@@ -20288,7 +20294,7 @@
 			(uuid "4cc0ed1f-9daf-4f3f-974e-b282bb5968cb")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0107")
 					(unit 1)
@@ -20353,7 +20359,7 @@
 			(uuid "cfcc40da-d40a-49d2-9a01-a190fba237dd")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR045")
 					(unit 1)
@@ -20418,7 +20424,7 @@
 			(uuid "ed669fb0-ea83-4d89-ba5b-b1b32a9f7561")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR090")
 					(unit 1)
@@ -20454,7 +20460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 128.27 187.96 0)
 			(effects
 				(font
@@ -20497,7 +20503,7 @@
 			(uuid "aafc1cc2-8a59-4a14-92b9-7db24269091a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C33")
 					(unit 1)
@@ -20562,7 +20568,7 @@
 			(uuid "ea13969f-07e8-4a1b-af16-1e78a12b7565")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR021")
 					(unit 1)
@@ -20627,7 +20633,7 @@
 			(uuid "f3ec577f-14ab-4fd3-8677-1daf9a488044")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR082")
 					(unit 1)
@@ -20692,7 +20698,7 @@
 			(uuid "1a9ea806-dd9a-41c4-b8f1-676a03ba24b7")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR073")
 					(unit 1)
@@ -20728,7 +20734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 128.27 50.8 0)
 			(effects
 				(font
@@ -20771,7 +20777,7 @@
 			(uuid "a55153da-8a4c-482c-8614-15327d8cf3c9")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C29")
 					(unit 1)
@@ -20836,7 +20842,7 @@
 			(uuid "e1ad3032-4e04-4fd1-855d-4db1ca52838f")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0127")
 					(unit 1)
@@ -20872,7 +20878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "panel_custom:C_0402_1005Metric"
 			(at 382.5748 90.17 0)
 			(effects
 				(font
@@ -20915,7 +20921,7 @@
 			(uuid "dc43990c-83e4-4f5a-97ae-b270191a24da")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C60")
 					(unit 1)
@@ -20951,7 +20957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 62.23 359.41 0)
 			(effects
 				(font
@@ -20994,7 +21000,7 @@
 			(uuid "4e38edb1-5fce-4fb2-94ae-1bfe801f4e63")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C28")
 					(unit 1)
@@ -21030,7 +21036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "panel_custom:C_0402_1005Metric"
 			(at 382.5748 257.81 0)
 			(effects
 				(font
@@ -21073,7 +21079,7 @@
 			(uuid "0124d1d9-7bf5-41f4-a8e2-7059222ea7ad")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C66")
 					(unit 1)
@@ -21138,7 +21144,7 @@
 			(uuid "78e43e6b-0dc6-412f-9e0d-d4c23c1b3cb3")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0126")
 					(unit 1)
@@ -21174,7 +21180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "panel_custom:C_0402_1005Metric"
 			(at 382.5748 201.93 0)
 			(effects
 				(font
@@ -21217,7 +21223,7 @@
 			(uuid "f873d4c7-4dbb-4d43-b86a-8513d834fe14")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C64")
 					(unit 1)
@@ -21282,7 +21288,7 @@
 			(uuid "1e57c529-1b90-499d-abd4-133867285412")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0115")
 					(unit 1)
@@ -21347,7 +21353,7 @@
 			(uuid "31cfa8e6-82ea-4b8a-8a81-9bd9d861e908")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR054")
 					(unit 1)
@@ -21412,7 +21418,7 @@
 			(uuid "958c8ff1-bf68-4f26-86a1-322c7c642913")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR033")
 					(unit 1)
@@ -21477,7 +21483,7 @@
 			(uuid "90a88088-717f-47c4-8d51-6afba2257968")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR024")
 					(unit 1)
@@ -21542,7 +21548,7 @@
 			(uuid "bbed8a55-4536-4e88-b8b6-592aa0d7c5b0")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0128")
 					(unit 1)
@@ -21607,7 +21613,7 @@
 			(uuid "8109fe95-e486-45d4-9c4c-b348653799d2")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR052")
 					(unit 1)
@@ -21672,7 +21678,7 @@
 			(uuid "6b8ed2f5-efd5-4162-89ce-14a47f4eb3e1")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR058")
 					(unit 1)
@@ -21737,7 +21743,7 @@
 			(uuid "6ad6529d-17dd-4b1b-9dc1-5a2da239e129")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR077")
 					(unit 1)
@@ -21802,7 +21808,7 @@
 			(uuid "4920fe9f-fc2e-4950-9825-f4b2e4615721")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR056")
 					(unit 1)
@@ -21836,7 +21842,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 142.24 124.46 0)
 			(effects
 				(font
@@ -21888,7 +21894,7 @@
 			(uuid "d7f03c49-09d4-4822-b7c4-7ed51ebd56d1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U15")
 					(unit 1)
@@ -21922,7 +21928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 264.16 261.62 0)
 			(effects
 				(font
@@ -21974,7 +21980,7 @@
 			(uuid "3f6c0395-3bc6-46ec-b401-9667c701ccba")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U29")
 					(unit 1)
@@ -22010,7 +22016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 128.27 222.25 0)
 			(effects
 				(font
@@ -22053,7 +22059,7 @@
 			(uuid "a0994bb9-b832-42c0-a4e2-b3941c6e9a5d")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C34")
 					(unit 1)
@@ -22089,7 +22095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 316.23 50.8 0)
 			(effects
 				(font
@@ -22132,7 +22138,7 @@
 			(uuid "e1202327-191d-4527-8001-e361209a4b97")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C49")
 					(unit 1)
@@ -22166,7 +22172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 264.16 193.04 0)
 			(effects
 				(font
@@ -22218,7 +22224,7 @@
 			(uuid "dac8eb6a-ee73-472c-9844-b82c31018bc5")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U27")
 					(unit 1)
@@ -22283,7 +22289,7 @@
 			(uuid "c3746bdf-4acd-46f5-be58-df921f6f4179")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0132")
 					(unit 1)
@@ -22319,7 +22325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 316.23 187.96 0)
 			(effects
 				(font
@@ -22362,7 +22368,7 @@
 			(uuid "8d3facbc-565d-4340-969b-8b2049046096")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C53")
 					(unit 1)
@@ -22427,7 +22433,7 @@
 			(uuid "60ce2fb5-3d26-4651-9a9c-e59f40da55d2")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR030")
 					(unit 1)
@@ -22492,7 +22498,7 @@
 			(uuid "e1f04718-49bb-4631-b8d6-9378ee114064")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR079")
 					(unit 1)
@@ -22526,7 +22532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 142.24 158.75 0)
 			(effects
 				(font
@@ -22578,7 +22584,7 @@
 			(uuid "717c699a-a7be-41f4-b0f6-ac912a5d55bf")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U16")
 					(unit 1)
@@ -22614,7 +22620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "panel_custom:C_0402_1005Metric"
 			(at 382.5748 229.87 0)
 			(effects
 				(font
@@ -22657,7 +22663,7 @@
 			(uuid "c68b7612-255c-4344-8936-3f0cbfd9c3de")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C65")
 					(unit 1)
@@ -22691,7 +22697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 264.16 158.75 0)
 			(effects
 				(font
@@ -22743,7 +22749,7 @@
 			(uuid "5e0f0dc4-30c2-4c19-850a-a6215a1752b4")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U26")
 					(unit 1)
@@ -22777,7 +22783,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 330.2 330.2 0)
 			(effects
 				(font
@@ -22829,7 +22835,7 @@
 			(uuid "99e26c9d-b19b-4542-bfcb-3f350a967c16")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U41")
 					(unit 1)
@@ -22865,7 +22871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 62.23 222.25 0)
 			(effects
 				(font
@@ -22908,7 +22914,7 @@
 			(uuid "576a6bc6-c06a-4733-9e23-d2cf7de92f88")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C24")
 					(unit 1)
@@ -22973,7 +22979,7 @@
 			(uuid "42c6292e-6fd3-4232-8ef5-3bafbb3147da")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR029")
 					(unit 1)
@@ -23038,7 +23044,7 @@
 			(uuid "abe09128-17dd-4715-a8e2-a7a63b50d41b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR085")
 					(unit 1)
@@ -23103,7 +23109,7 @@
 			(uuid "4a40c26d-5724-443d-b942-9402530f1c74")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR098")
 					(unit 1)
@@ -23168,7 +23174,7 @@
 			(uuid "ec905964-33be-4d85-8e77-d716d0f6ac1b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR067")
 					(unit 1)
@@ -23233,7 +23239,7 @@
 			(uuid "f151e5f0-2721-47d5-a927-f8c4fb626a50")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR063")
 					(unit 1)
@@ -23269,7 +23275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 62.23 325.12 0)
 			(effects
 				(font
@@ -23312,7 +23318,7 @@
 			(uuid "bcee279f-baa3-4b9f-9834-e4578a053b34")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C27")
 					(unit 1)
@@ -23348,7 +23354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 128.27 85.09 0)
 			(effects
 				(font
@@ -23391,7 +23397,7 @@
 			(uuid "a921db73-527c-4884-820f-38dca464937e")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C30")
 					(unit 1)
@@ -23456,7 +23462,7 @@
 			(uuid "3e4aae5e-26d3-4a49-9fd0-5bd7f8fd7588")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR041")
 					(unit 1)
@@ -23521,7 +23527,7 @@
 			(uuid "59f4f375-c5b4-4ecf-a7b8-9cfa37316188")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "#PWR0116")
 					(unit 1)
@@ -23555,7 +23561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "panel_custom:SOT-23-5"
 			(at 142.24 90.17 0)
 			(effects
 				(font
@@ -23607,7 +23613,7 @@
 			(uuid "6acddaa0-6954-43e3-a437-c22c09a5e3cd")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "U14")
 					(unit 1)
@@ -23643,7 +23649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 250.19 187.96 0)
 			(effects
 				(font
@@ -23686,7 +23692,7 @@
 			(uuid "fa23b9c3-d86d-49f4-8d98-18537175c316")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C43")
 					(unit 1)
@@ -23722,7 +23728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 250.19 256.54 0)
 			(effects
 				(font
@@ -23765,7 +23771,7 @@
 			(uuid "789315bc-df0c-4c34-b271-6e536f5b3d2a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/a7d5befd-9114-4010-9802-fabf9a587f92"
 					(reference "C45")
 					(unit 1)

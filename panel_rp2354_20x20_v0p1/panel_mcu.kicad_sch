@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "7e835d3b-1dd2-414a-9fee-ca4280570221")
 	(paper "User" 406.4 279.4)
+	(title_block
+		(title "G6 Panel")
+		(date "2026-04-01")
+		(rev "0.1.3")
+		(company "Janelia Research Campus")
+	)
 	(lib_symbols
 		(symbol "+1V1_1"
 			(power)
@@ -259,262 +265,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Crystal_GND24"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 3.175 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Crystal_GND24"
-				(at 3.175 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 4"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_GND24_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -1.27) (xy -2.032 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.556) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -1.27) (xy 2.032 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_GND24_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1193,6 +943,262 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "panel_custom:Crystal_GND24"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 3.175 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_GND24_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "panel_custom:RP2354B_80QFN"
 			(pin_names
 				(offset 1.016)
@@ -1216,7 +1222,7 @@
 					)
 				)
 			)
-			(property "Footprint" "RP2350_80QFN_minimal:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
+			(property "Footprint" "panel_custom:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
 				(at -19.05 0 0)
 				(effects
 					(font
@@ -6473,7 +6479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 44.45 117.8052 0)
 			(effects
 				(font
@@ -6516,7 +6522,7 @@
 			(uuid "d8f2566d-6f0c-4e00-8b6c-83f8cf4d888b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "C1")
 					(unit 1)
@@ -6551,7 +6557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 44.45 127.9652 0)
 			(effects
 				(font
@@ -6594,7 +6600,7 @@
 			(uuid "b7d89dd0-a7d6-467f-b281-b837f2099b8c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "C2")
 					(unit 1)
@@ -6658,7 +6664,7 @@
 			(uuid "b8b716f8-88df-4c86-b621-a7c5d12c1f0e")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#PWR04")
 					(unit 1)
@@ -6722,7 +6728,7 @@
 			(uuid "b0473b8a-0611-4e83-9cf8-34d53dc70c79")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#PWR019")
 					(unit 1)
@@ -6757,7 +6763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 258.7752 40.64 0)
 			(effects
 				(font
@@ -6800,7 +6806,7 @@
 			(uuid "fbb2b209-244e-4fd6-bcc5-f48165af7074")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "C12")
 					(unit 1)
@@ -6835,7 +6841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 270.2052 40.64 0)
 			(effects
 				(font
@@ -6878,7 +6884,7 @@
 			(uuid "1422bb26-e47f-411a-9417-5681ef83568b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "C13")
 					(unit 1)
@@ -6913,7 +6919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 281.6352 40.64 0)
 			(effects
 				(font
@@ -6956,7 +6962,7 @@
 			(uuid "4b750ad4-5120-4da6-abfd-5395f59a7ac3")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "C14")
 					(unit 1)
@@ -6991,7 +6997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 293.0652 40.64 0)
 			(effects
 				(font
@@ -7034,7 +7040,7 @@
 			(uuid "23e66139-6e83-4fe7-af70-e508407fc7a6")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "C15")
 					(unit 1)
@@ -7069,7 +7075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 304.4952 40.64 0)
 			(effects
 				(font
@@ -7112,7 +7118,7 @@
 			(uuid "3199c324-97d1-4f23-a2a1-2337b656facb")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "C16")
 					(unit 1)
@@ -7147,7 +7153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 315.9252 40.64 0)
 			(effects
 				(font
@@ -7190,7 +7196,7 @@
 			(uuid "6d479f16-e62a-4f01-b96e-2eca0c36108f")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "C17")
 					(unit 1)
@@ -7199,7 +7205,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND24")
+		(lib_id "panel_custom:Crystal_GND24")
 		(at 63.5 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7225,7 +7231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "panel_custom:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 63.5 121.92 0)
 			(effects
 				(font
@@ -7274,7 +7280,7 @@
 			(uuid "ac7c0c08-2ad8-4011-990a-78fde928229c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "Y1")
 					(unit 1)
@@ -7338,7 +7344,7 @@
 			(uuid "5e7a14d4-544a-4b25-a89b-cb0e5f159fc9")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#PWR09")
 					(unit 1)
@@ -7462,7 +7468,7 @@
 			(uuid "a1fd81de-396e-4eeb-add1-e078b7dcf9cd")
 		)
 		(instances
-			(project ""
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "U1")
 					(unit 1)
@@ -7526,7 +7532,7 @@
 			(uuid "ef701c0e-7205-430e-9c90-5fe308e40800")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#PWR05")
 					(unit 1)
@@ -7561,7 +7567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 173.6852 40.64 0)
 			(effects
 				(font
@@ -7604,7 +7610,7 @@
 			(uuid "60e1e838-a1d3-41ee-8df0-335858e9f957")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "C9")
 					(unit 1)
@@ -7670,7 +7676,7 @@
 			(uuid "6eeb74aa-957a-46ca-9dab-17cb1556616c")
 		)
 		(instances
-			(project ""
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#PWR018")
 					(unit 1)
@@ -7703,7 +7709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 256.54 64.262 90)
 			(effects
 				(font
@@ -7746,7 +7752,7 @@
 			(uuid "6a165f00-c188-49c5-8cd0-7a138129768b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "R7")
 					(unit 1)
@@ -7781,7 +7787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 247.3452 40.64 0)
 			(effects
 				(font
@@ -7824,7 +7830,7 @@
 			(uuid "7a6fd0eb-fb3f-41f0-9cfd-6728f62d0e49")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "C11")
 					(unit 1)
@@ -7859,7 +7865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 327.3552 40.64 0)
 			(effects
 				(font
@@ -7902,7 +7908,7 @@
 			(uuid "baa4eebb-256c-433a-be86-9ba53437d70b")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "C18")
 					(unit 1)
@@ -7967,7 +7973,7 @@
 			(uuid "48cf5bdc-b6c8-44b5-b285-088ef20d0bb6")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#PWR014")
 					(unit 1)
@@ -8043,7 +8049,7 @@
 			(uuid "60bc8042-9019-4595-8e44-d914b37edcf2")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "SW2")
 					(unit 1)
@@ -8107,7 +8113,7 @@
 			(uuid "d7a07264-c2a8-4efc-a94d-ff11388390e2")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#PWR011")
 					(unit 1)
@@ -8171,7 +8177,7 @@
 			(uuid "07777e61-1fa1-4648-88a7-2093ff52f177")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#PWR07")
 					(unit 1)
@@ -8207,7 +8213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 70.358 160.02 90)
 			(effects
 				(font
@@ -8250,7 +8256,7 @@
 			(uuid "efe44c81-dee8-4cfe-bee3-2399381a4c93")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "R4")
 					(unit 1)
@@ -8316,7 +8322,7 @@
 			(uuid "e984d9c4-2995-4258-b087-9089838dc400")
 		)
 		(instances
-			(project ""
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#FLG03")
 					(unit 1)
@@ -8352,7 +8358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "panel_custom:C_0402_1005Metric"
 			(at 160.9852 69.85 0)
 			(effects
 				(font
@@ -8395,7 +8401,7 @@
 			(uuid "be9dc58a-f7ed-4974-b497-3805bb3261b1")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "C7")
 					(unit 1)
@@ -8431,7 +8437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_80QFN_minimal:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
+		(property "Footprint" "panel_custom:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
 			(at 185.42 115.57 0)
 			(effects
 				(font
@@ -8711,7 +8717,7 @@
 			(uuid "b0b483ea-4b3f-4bdf-b965-557e737d0160")
 		)
 		(instances
-			(project ""
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "U2")
 					(unit 1)
@@ -8744,7 +8750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 60.96 168.402 90)
 			(effects
 				(font
@@ -8787,7 +8793,7 @@
 			(uuid "0db35bf2-5ea4-4629-9f61-eaf579813307")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "R3")
 					(unit 1)
@@ -8823,7 +8829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_80QFN_minimal:L_pol_2016"
+		(property "Footprint" "panel_custom:L_pol_2016"
 			(at 140.97 78.74 0)
 			(effects
 				(font
@@ -8873,7 +8879,7 @@
 			(uuid "5cfe9784-07a4-490e-9bab-9035b3bc9d3e")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "L1")
 					(unit 1)
@@ -8937,7 +8943,7 @@
 			(uuid "ffd241e9-18ea-4c3a-a28d-205357994422")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#PWR08")
 					(unit 1)
@@ -9002,7 +9008,7 @@
 			(uuid "7e4fac50-c934-4f05-8968-aaebb9d9a764")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#PWR013")
 					(unit 1)
@@ -9066,7 +9072,7 @@
 			(uuid "1aa2f6f1-0862-4cf6-b990-fe98e7f5c019")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#PWR017")
 					(unit 1)
@@ -9101,7 +9107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_80QFN_minimal:C_0402_1005Metric_small_pads"
+		(property "Footprint" "panel_custom:C_0402_1005Metric_small_pads"
 			(at 126.6952 82.55 0)
 			(effects
 				(font
@@ -9144,7 +9150,7 @@
 			(uuid "bff41558-021c-477b-a5e0-d4eb73929d10")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "C5")
 					(unit 1)
@@ -9177,7 +9183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 81.28 125.222 90)
 			(effects
 				(font
@@ -9220,7 +9226,7 @@
 			(uuid "c6e7310b-b5c6-467e-a21e-55640e33b852")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "R5")
 					(unit 1)
@@ -9255,7 +9261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 150.8252 40.64 0)
 			(effects
 				(font
@@ -9298,7 +9304,7 @@
 			(uuid "4f53e1dd-4b97-4b5e-92b2-366c76ba42ad")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "C6")
 					(unit 1)
@@ -9333,7 +9339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 89.8652 80.01 0)
 			(effects
 				(font
@@ -9376,7 +9382,7 @@
 			(uuid "f1a0d376-be37-407e-a154-52d96c163961")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "C3")
 					(unit 1)
@@ -9411,7 +9417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "panel_custom:C_0402_1005Metric"
 			(at 162.2552 40.64 0)
 			(effects
 				(font
@@ -9454,7 +9460,7 @@
 			(uuid "faed632b-8075-4695-a6de-c19611a252be")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "C8")
 					(unit 1)
@@ -9489,7 +9495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "panel_custom:C_0201_0603Metric"
 			(at 235.9152 40.64 0)
 			(effects
 				(font
@@ -9532,7 +9538,7 @@
 			(uuid "6a68528f-ba5e-4606-b856-bd8a021df1ff")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "C10")
 					(unit 1)
@@ -9565,7 +9571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 50.8 205.232 90)
 			(effects
 				(font
@@ -9608,7 +9614,7 @@
 			(uuid "7b540664-60c7-4f83-80d3-eb3cc3381849")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "R2")
 					(unit 1)
@@ -9643,7 +9649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 148.59 62.738 90)
 			(effects
 				(font
@@ -9686,7 +9692,7 @@
 			(uuid "5cd3c02e-fcd0-4c56-80cb-fd4d9d170b32")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "R6")
 					(unit 1)
@@ -9764,7 +9770,7 @@
 			(uuid "1c83d932-fb4e-4271-8f55-c2476e14a081")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "SW1")
 					(unit 1)
@@ -9797,7 +9803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 256.54 73.152 90)
 			(effects
 				(font
@@ -9840,7 +9846,7 @@
 			(uuid "ded710b0-8026-4e3e-a4b0-9a5474997c26")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "R8")
 					(unit 1)
@@ -9875,7 +9881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_80QFN_minimal:C_0402_1005Metric_small_pads"
+		(property "Footprint" "panel_custom:C_0402_1005Metric_small_pads"
 			(at 115.2652 82.55 0)
 			(effects
 				(font
@@ -9918,7 +9924,7 @@
 			(uuid "99f1398c-5c12-4f4d-9494-d839ab7e8a41")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "C4")
 					(unit 1)
@@ -9983,7 +9989,7 @@
 			(uuid "93a1b4a7-0139-42d2-837d-11151606684a")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#PWR020")
 					(unit 1)
@@ -10047,7 +10053,7 @@
 			(uuid "f50bb738-d677-434f-965b-27336fe62863")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#PWR012")
 					(unit 1)
@@ -10111,7 +10117,7 @@
 			(uuid "184606ab-faa0-42d8-aac0-92e7e837f796")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#PWR015")
 					(unit 1)
@@ -10175,7 +10181,7 @@
 			(uuid "4235c829-759a-4ec3-b19b-42efa80068dc")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#PWR016")
 					(unit 1)
@@ -10239,7 +10245,7 @@
 			(uuid "6d11327f-eb19-423f-897b-a97bddd52bcc")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#PWR06")
 					(unit 1)
@@ -10275,7 +10281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
 			(at 50.038 57.15 90)
 			(effects
 				(font
@@ -10318,7 +10324,7 @@
 			(uuid "96b3cd9b-0fbe-476e-9454-e61504333d9c")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "R1")
 					(unit 1)
@@ -10384,7 +10390,7 @@
 			(uuid "b434d6cf-fd38-480e-8cef-5547426f5ed9")
 		)
 		(instances
-			(project ""
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#PWR03")
 					(unit 1)
@@ -10448,7 +10454,7 @@
 			(uuid "49bdd7ee-3741-44e1-9963-2560b2dc5564")
 		)
 		(instances
-			(project "driver_rp2350"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#PWR010")
 					(unit 1)
@@ -10514,7 +10520,7 @@
 			(uuid "411a47ee-d2df-4081-81de-1272c934b933")
 		)
 		(instances
-			(project "panel_rp2350_20x20"
+			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#FLG04")
 					(unit 1)

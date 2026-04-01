@@ -100602,7 +100602,7 @@
 			)
 		)
 	)
-	(footprint "RP2350_80QFN_minimal:C_0402_1005Metric_small_pads"
+	(footprint "panel_custom:C_0402_1005Metric_small_pads"
 		(layer "B.Cu")
 		(uuid "6e512f23-d64b-4482-ad35-0d19b0a1942e")
 		(at 75.5 82.4)
@@ -106180,7 +106180,7 @@
 			)
 		)
 	)
-	(footprint "RP2350_80QFN_minimal:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
+	(footprint "panel_custom:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
 		(layer "B.Cu")
 		(uuid "90cface6-4315-40ad-96e0-6785485803ab")
 		(at 72.5 76)
@@ -107413,7 +107413,7 @@
 			(uuid "b91bcca9-dc3c-4f8e-9d7a-da9266f6be75")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/RP2350_80QFN_minimal.pretty/RP2350_QFN80.step"
+		(model "${KIPRJMOD}/panel_custom.pretty/RP2350_QFN80.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -112961,7 +112961,7 @@
 			)
 		)
 	)
-	(footprint "RP2350_80QFN_minimal:L_pol_2016"
+	(footprint "panel_custom:L_pol_2016"
 		(layer "B.Cu")
 		(uuid "b0b64920-0982-43b1-b68a-1f818ba29616")
 		(at 75.5 85.025)
@@ -114966,7 +114966,7 @@
 			)
 		)
 	)
-	(footprint "RP2350_80QFN_minimal:C_0402_1005Metric_small_pads"
+	(footprint "panel_custom:C_0402_1005Metric_small_pads"
 		(layer "B.Cu")
 		(uuid "bdb222c4-739f-4ee6-805c-d543a0fe3a2b")
 		(at 75.44 83.375)

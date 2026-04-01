@@ -583,17 +583,17 @@
     (component "panel_custom:TS-1088-AR02016"
       (place SW1 518000 -795650 back 90)
     )
-    (component RP2350_80QFN_minimal:C_0402_1005Metric_small_pads
+    (component panel_custom:C_0402_1005Metric_small_pads
       (place C4 755000 -824000 back 180)
       (place C5 754400 -833750 back 180)
     )
     (component Capacitor_SMD:C_0201_0603Metric::3
       (place C18 699600 -832750 back 90)
     )
-    (component "RP2350_80QFN_minimal:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
+    (component "panel_custom:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
       (place U2 725000 -760000 back 180)
     )
-    (component RP2350_80QFN_minimal:L_pol_2016
+    (component panel_custom:L_pol_2016
       (place L1 755000 -850250 back 180)
     )
     (component "panel_custom:TS-1088-AR02016::1"

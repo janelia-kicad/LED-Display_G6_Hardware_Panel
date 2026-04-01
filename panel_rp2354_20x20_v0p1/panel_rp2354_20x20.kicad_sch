@@ -5,7 +5,10 @@
 	(uuid "1e634561-32a0-4ffa-9d4f-e93f355464d5")
 	(paper "USLetter")
 	(title_block
-		(date "9 may 2016")
+		(title "G6 Panel")
+		(date "2026-04-01")
+		(rev "0.1.3")
+		(company "Janelia Research Campus")
 	)
 	(lib_symbols)
 	(text "Column Pins"
