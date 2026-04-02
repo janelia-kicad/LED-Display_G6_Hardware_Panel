@@ -1222,7 +1222,7 @@
 					)
 				)
 			)
-			(property "Footprint" "RP2350_80QFN_minimal:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
+			(property "Footprint" "panel_custom:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
 				(at -19.05 0 0)
 				(effects
 					(font
@@ -8427,7 +8427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_80QFN_minimal:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
+		(property "Footprint" "panel_custom:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
 			(at 185.42 115.57 0)
 			(effects
 				(font
@@ -8819,7 +8819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_80QFN_minimal:L_pol_2016"
+		(property "Footprint" "panel_custom:L_pol_2016"
 			(at 140.97 78.74 0)
 			(effects
 				(font
@@ -9097,7 +9097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_80QFN_minimal:C_0402_1005Metric_small_pads"
+		(property "Footprint" "panel_custom:C_0402_1005Metric_small_pads"
 			(at 126.6952 82.55 0)
 			(effects
 				(font
@@ -9871,7 +9871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_80QFN_minimal:C_0402_1005Metric_small_pads"
+		(property "Footprint" "panel_custom:C_0402_1005Metric_small_pads"
 			(at 115.2652 82.55 0)
 			(effects
 				(font
