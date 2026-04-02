@@ -1,0 +1,19 @@
+ERC report (2026-04-02T16:39:20-0400, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[lib_symbol_mismatch]: Symbol 'Crystal_GND24' doesn't match copy in library 'Device'
+    ; warning
+    @(2500 mils, 4800 mils): Symbol Y1 [Crystal_GND24]
+
+***** Sheet /panel_mcu/
+
+***** Sheet /panel_leds/
+
+***** Sheet /drivers/
+
+***** Sheet /panel_usb_power/
+
+***** Sheet /panel_header/
+
+ ** ERC messages: 1  Errors 0  Warnings 1
