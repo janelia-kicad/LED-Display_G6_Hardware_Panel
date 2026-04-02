@@ -1,5 +1,5 @@
 ** Drc report for panel_rp2354_20x20.kicad_pcb **
-** Created on 2026-04-02T16:39:57-0400 **
+** Created on 2026-04-02T17:06:17-0400 **
 ** Report includes: Errors, Warnings **
 
 ** Found 150 DRC violations **
@@ -437,13 +437,13 @@
     @(61.7350 mm, 73.6250 mm): Footprint U10
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
-    @(80.0000 mm, 85.0000 mm): PCB text 'G6 panel 45mm RP2354' on B.Silkscreen
+    @(63.0000 mm, 84.0000 mm): PCB text 'boot' on B.Silkscreen
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
     @(70.9450 mm, 51.3325 mm): PCB text 'TOP' on B.Silkscreen
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
-    @(63.0000 mm, 84.0000 mm): PCB text 'boot' on B.Silkscreen
+    @(80.0000 mm, 85.0000 mm): PCB text 'G6 panel 45mm RP2354' on B.Silkscreen
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
     @(59.4200 mm, 77.2950 mm): Rectangle of SW1 on B.Silkscreen

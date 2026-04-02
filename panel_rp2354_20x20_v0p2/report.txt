@@ -138,7 +138,7 @@ Info: Processing symbol 'D251:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D252:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D253:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D254:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'U2:RP2350_80QFN_minimal:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias'.
+Info: Processing symbol 'U2:panel_custom:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias'.
 Info: Processing symbol 'R24:Resistor_SMD:R_0201_0603Metric'.
 Info: Processing symbol 'R25:Resistor_SMD:R_0201_0603Metric'.
 Info: Processing symbol 'R26:Resistor_SMD:R_0201_0603Metric'.
@@ -254,7 +254,7 @@ Info: Processing symbol 'J2:panel_custom:PinHeader_1x5_M20-8890545R'.
 Info: Processing symbol 'J3:panel_custom:PinHeader_1x5_M20-8890545R'.
 Info: Processing symbol 'D395:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'J5:panel_custom:ConnRcpt_1x5_SMH-105-02-X-S'.
-Info: Processing symbol 'L1:RP2350_80QFN_minimal:L_pol_2016'.
+Info: Processing symbol 'L1:panel_custom:L_pol_2016'.
 Info: Processing symbol 'R1:Resistor_SMD:R_0201_0603Metric'.
 Info: Processing symbol 'R2:Resistor_SMD:R_0201_0603Metric'.
 Info: Processing symbol 'R3:Resistor_SMD:R_0201_0603Metric'.
@@ -368,8 +368,8 @@ Info: Processing symbol 'C35:Capacitor_SMD:C_0201_0603Metric'.
 Info: Processing symbol 'C10:Capacitor_SMD:C_0201_0603Metric'.
 Info: Processing symbol 'C2:Capacitor_SMD:C_0201_0603Metric'.
 Info: Processing symbol 'C3:Capacitor_SMD:C_0201_0603Metric'.
-Info: Processing symbol 'C4:RP2350_80QFN_minimal:C_0402_1005Metric_small_pads'.
-Info: Processing symbol 'C5:RP2350_80QFN_minimal:C_0402_1005Metric_small_pads'.
+Info: Processing symbol 'C4:panel_custom:C_0402_1005Metric_small_pads'.
+Info: Processing symbol 'C5:panel_custom:C_0402_1005Metric_small_pads'.
 Info: Processing symbol 'C6:Capacitor_SMD:C_0201_0603Metric'.
 Info: Processing symbol 'C7:Capacitor_SMD:C_0402_1005Metric'.
 Info: Processing symbol 'C8:Capacitor_SMD:C_0402_1005Metric'.
