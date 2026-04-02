@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "panel_custom")(type "KiCad")(uri "${KIPRJMOD}/panel_custom.pretty")(options "")(descr ""))
-)
