@@ -5,7 +5,10 @@
 	(uuid "1e634561-32a0-4ffa-9d4f-e93f355464d5")
 	(paper "USLetter")
 	(title_block
-		(date "9 may 2016")
+		(title "G6 Panel")
+		(date "2026-04-02")
+		(rev "0.2.0")
+		(company "Janelia Research Campus")
 	)
 	(lib_symbols)
 	(text "Column Pins"
@@ -395,6 +398,16 @@
 			(type default)
 		)
 		(uuid "5422eecc-9653-4392-ac10-01b10c1ac30e")
+	)
+	(wire
+		(pts
+			(xy 60.96 132.08) (xy 83.82 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551c608e-27d2-4848-b594-0b9478024486")
 	)
 	(wire
 		(pts
@@ -1094,6 +1107,16 @@
 		(pin "SCK" output
 			(at 60.96 119.38 0)
 			(uuid "3d96a856-757d-40c5-9611-8209e3705c6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EINT" output
+			(at 60.96 132.08 0)
+			(uuid "dd474c0d-6f01-4f26-bf1e-1e8aafac9fbd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2889,6 +2912,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "EINT" input
+			(at 83.82 132.08 180)
+			(uuid "da800f3f-68ee-4ad4-83ee-cf6cd805ebdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
