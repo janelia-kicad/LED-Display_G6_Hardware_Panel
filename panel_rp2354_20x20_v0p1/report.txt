@@ -88,8 +88,8 @@ Info: Processing symbol 'D236:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D237:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D212:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D204:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D205:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'C1:panel_custom:C_0201_0603Metric'.
+Info: Processing symbol 'D206:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D207:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D208:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D209:panel_custom:LED_0402_1005Metric'.
@@ -190,7 +190,7 @@ Info: Processing symbol 'U41:panel_custom:SOT-23-5'.
 Info: Processing symbol 'U42:panel_custom:SOT-23-5'.
 Info: Processing symbol 'U43:panel_custom:SOT-23-5'.
 Info: Processing symbol 'Y1:panel_custom:Crystal_SMD_3225-4Pin_3.2x2.5mm'.
-Info: Total warnings: 3, errors: 0.
+Info: Total warnings: 1, errors: 0.
 Info: Processing symbol 'U20:panel_custom:SOT-23-5'.
 Info: Processing symbol 'U12:panel_custom:SOT-23-5'.
 Info: Processing symbol 'U13:panel_custom:SOT-23-5'.
@@ -269,7 +269,7 @@ Info: Processing symbol 'D383:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D384:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D385:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D386:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D206:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D205:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D388:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D389:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D390:panel_custom:LED_0402_1005Metric'.
@@ -328,8 +328,8 @@ Info: Processing symbol 'D58:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D59:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D60:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D61:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D62:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D203:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D63:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D38:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D30:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D31:panel_custom:LED_0402_1005Metric'.
@@ -396,7 +396,7 @@ Info: Processing symbol 'C63:panel_custom:C_0402_1005Metric'.
 Info: Processing symbol 'C64:panel_custom:C_0402_1005Metric'.
 Info: Processing symbol 'C65:panel_custom:C_0402_1005Metric'.
 Info: Processing symbol 'C66:panel_custom:C_0402_1005Metric'.
-Info: Processing symbol 'C67:panel_custom:C_0402_1005Metric-2'.
+Info: Processing symbol 'C67:panel_custom:C_0402_1005Metric_NoSilk'.
 Info: Processing symbol 'C68:panel_custom:C_0402_1005Metric'.
 Info: Processing symbol 'C69:panel_custom:C_0402_1005Metric'.
 Info: Processing symbol 'C45:panel_custom:C_0201_0603Metric'.
@@ -408,7 +408,7 @@ Info: Processing symbol 'C41:panel_custom:C_0201_0603Metric'.
 Info: Processing symbol 'C42:panel_custom:C_0201_0603Metric'.
 Info: Processing symbol 'C43:panel_custom:C_0201_0603Metric'.
 Info: Processing symbol 'C44:panel_custom:C_0201_0603Metric'.
-Info: Processing symbol 'D62:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D63:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'C46:panel_custom:C_0201_0603Metric'.
 Info: Processing symbol 'C47:panel_custom:C_0201_0603Metric'.
 Info: Processing symbol 'C48:panel_custom:C_0201_0603Metric'.
@@ -434,17 +434,16 @@ Info: Processing symbol 'D164:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D165:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D166:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D167:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D141:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D133:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D142:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D134:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D64:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D135:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D136:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D137:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D138:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D139:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D140:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D141:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D168:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D142:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D143:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D144:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D145:panel_custom:LED_0402_1005Metric'.
@@ -479,7 +478,7 @@ Info: Processing symbol 'D173:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D174:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D175:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D176:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D134:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D135:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D178:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D179:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D180:panel_custom:LED_0402_1005Metric'.
@@ -487,7 +486,8 @@ Info: Processing symbol 'D181:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D182:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D183:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D184:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D91:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D90:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D82:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D83:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D84:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D85:panel_custom:LED_0402_1005Metric'.
@@ -495,16 +495,15 @@ Info: Processing symbol 'D86:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D87:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D88:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D89:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D90:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D82:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D81:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D91:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D92:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D93:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D94:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D95:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D96:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D97:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D98:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D132:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D133:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D73:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D65:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D66:panel_custom:LED_0402_1005Metric'.
@@ -514,7 +513,7 @@ Info: Processing symbol 'D69:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D70:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D71:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D72:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D99:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D98:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D74:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D75:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D76:panel_custom:LED_0402_1005Metric'.
@@ -522,17 +521,16 @@ Info: Processing symbol 'D77:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D78:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D79:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D80:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D81:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D124:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D116:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D100:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D99:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D117:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D118:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D119:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D120:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D121:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D122:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D123:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D117:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D116:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D125:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D126:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D127:panel_custom:LED_0402_1005Metric'.
@@ -540,15 +538,17 @@ Info: Processing symbol 'D128:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D129:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D130:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D131:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D108:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D132:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D107:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D100:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D101:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D102:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D103:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D104:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D105:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D106:panel_custom:LED_0402_1005Metric'.
-Info: Processing symbol 'D107:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D115:panel_custom:LED_0402_1005Metric'.
+Info: Processing symbol 'D108:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D109:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D110:panel_custom:LED_0402_1005Metric'.
 Info: Processing symbol 'D111:panel_custom:LED_0402_1005Metric'.
@@ -558,8 +558,6 @@ Info: Processing symbol 'D114:panel_custom:LED_0402_1005Metric'.
 
 
 Warning: No net found for component U1 pad 9 (no pin 9 in symbol).
-Warning: No net found for component J1 pad MP (no pin MP in symbol).
-Warning: No net found for component J1 pad MP (no pin MP in symbol).
 
 
-Info: Total warnings: 3, errors: 0.
+Info: Total warnings: 1, errors: 0.

@@ -1,13 +1,7 @@
-ERC report (2026-04-01T16:10:58-0400, Encoding UTF8)
+ERC report (2026-04-02T10:10:13-0400, Encoding UTF8)
 Report includes: Errors, Warnings
 
 ***** Sheet /
-[lib_symbol_mismatch]: Symbol 'Conn_01x04' doesn't match copy in library 'Connector_Generic'
-    ; warning
-    @(2900 mils, 1950 mils): Symbol J1 [Conn_01x04]
-[lib_symbol_mismatch]: Symbol 'APS6404L-3SQR' doesn't match copy in library 'panel_custom'
-    ; warning
-    @(2700 mils, 3000 mils): Symbol U1 [APS6404L-3SQR]
 
 ***** Sheet /panel_mcu/
 
@@ -16,10 +10,7 @@ Report includes: Errors, Warnings
 ***** Sheet /drivers/
 
 ***** Sheet /panel_usb_power/
-[pin_not_connected]: Pin not connected
-    ; error
-    @(2900 mils, 1600 mils): Symbol J1 Hidden pin MP [MP, Passive, Line]
 
 ***** Sheet /panel_header/
 
- ** ERC messages: 3  Errors 1  Warnings 2
+ ** ERC messages: 0  Errors 0  Warnings 0
