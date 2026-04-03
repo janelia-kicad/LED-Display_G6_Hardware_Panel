@@ -904,10 +904,10 @@
 						)
 					)
 				)
-					(pin no_connect line
-						(at 0 0 0)
-						(length 0)
-						(hide yes)
+				(pin no_connect line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
 					(name "PAD"
 						(effects
 							(font
@@ -3571,10 +3571,6 @@
 		(at 172.72 149.86)
 		(uuid "a5e1b1cb-8424-4205-9a97-f15514c545cf")
 	)
-	(no_connect
-		(at 241.3 199.39)
-		(uuid "f6103396-2d04-463f-8470-016d878e8832")
-	)
 	(wire
 		(pts
 			(xy 241.3 82.55) (xy 256.54 82.55)
@@ -4707,6 +4703,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 171.45) (xy 284.48 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c38368-7aa9-4579-94cc-1a24bb66da95")
+	)
+	(wire
+		(pts
 			(xy 262.89 260.35) (xy 262.89 262.89)
 		)
 		(stroke
@@ -4757,7 +4763,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 171.45) (xy 256.54 171.45)
+			(xy 241.3 171.45) (xy 274.32 171.45)
 		)
 		(stroke
 			(width 0)
@@ -5617,6 +5623,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 199.39) (xy 256.54 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee49600-1465-47da-a74d-c59263db9efc")
+	)
+	(wire
+		(pts
 			(xy 172.72 81.28) (xy 148.59 81.28)
 		)
 		(stroke
@@ -6221,7 +6237,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape output)
-		(at 256.54 171.45 0)
+		(at 284.48 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6229,6 +6245,17 @@
 			(justify left)
 		)
 		(uuid "a07affdb-597f-4025-a3ea-028d03133939")
+	)
+	(hierarchical_label "EINT"
+		(shape input)
+		(at 256.54 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a30379c8-92cb-488c-ae7c-f7d9951203ee")
 	)
 	(hierarchical_label "ROW_MCU_14"
 		(shape output)
@@ -7988,6 +8015,84 @@
 			(project "panel_rp2354_20x20"
 				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 278.13 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f643aaa-7fdd-4f95-ac63-260162eee318")
+		(property "Reference" "R29"
+			(at 280.162 169.164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33"
+			(at 279.4 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "panel_custom:R_0201_0603Metric"
+			(at 278.13 173.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C295794"
+			(at 278.13 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8310ea0c-b800-4a0f-a34f-2843e42b4dac")
+		)
+		(pin "2"
+			(uuid "ac0541ae-f937-4601-b644-91d8e3af0b54")
+		)
+		(instances
+			(project "panel_rp2354_20x20"
+				(path "/1e634561-32a0-4ffa-9d4f-e93f355464d5/b30b56c6-21ca-46ed-bb1a-e5062fd43ea8"
+					(reference "R29")
 					(unit 1)
 				)
 			)

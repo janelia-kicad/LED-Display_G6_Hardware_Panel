@@ -341,6 +341,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 132.08) (xy 83.82 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4181f005-1d8d-46cd-ad46-50e8764de79c")
+	)
+	(wire
+		(pts
 			(xy 123.19 76.2) (xy 146.05 76.2)
 		)
 		(stroke
@@ -1097,6 +1107,16 @@
 		(pin "SCK" output
 			(at 60.96 119.38 0)
 			(uuid "3d96a856-757d-40c5-9611-8209e3705c6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EINT" output
+			(at 60.96 132.08 0)
+			(uuid "aab12cd5-9109-4481-a554-abe1fdf19a0f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,6 +2912,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "EINT" input
+			(at 83.82 132.08 180)
+			(uuid "2bf89aa7-83c3-47dd-838f-5384e2bf43b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
